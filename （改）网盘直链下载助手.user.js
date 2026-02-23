@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name              LinkSwift
 // @namespace         github.com/hmjz100
-// @version           1.1.2.1
+// @version           1.1.3
 // @author            Hmjz100、油小猴
-// @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8+PHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8+PHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=
+// @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImdvbGRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkY1OUQ7c3RvcC1vcGFjaXR5OjEiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRDcwMDtzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZCQzAyRDtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYuNCwgLTIpIHNjYWxlKDAuOSkiPjxwYXRoIGQ9Ik0xMDMuNiAxMDcuNGMzLjUtMi4yIDguOS02LjEgMTMuOC0xMi41czcuMy0xMi41IDguNS0xNi41Yy41LTEuNyAyLjItNy41IDIuMi0xNC43IDAtMTAuMS0zLjMtMjUuMS0xNS40LTM2LjgtMTQuNS0xNC0zMi4xLTE0LjMtMzUuNy0xNC4zLTggMC0xNS43IDEuOS0yMi42IDUuMkM0NCAyMyAzNS43IDMxLjQgMzAuOCA0MS43Yy0xLjMgMi44LTQgNC43LTcuMSA1LTQgLjMtNy41IDQuNC04LjkgOS42LS41IDEuOS0xLjYgMy41LTMuMSA0LjdDNC40IDY2LjggMCA3NS43IDAgODVjMCA2LjggMi4zIDEzLjEgNi4xIDE4LjIgNS41IDcuNCAxNC4yIDEyLjIgMjQgMTIuMmg0Ny4xYzQuNCAwIDExLS41IDE4LjMtMy41IDMuMi0xLjQgNS45LTMgOC4xLTQuNXoiIGZpbGw9IiNBMDk5RjAiLz48cGF0aCBkPSJNMTE5LjggNjQuM2MuMS0xNy4xLTEwLjQtMjgtMTIuNS0zMC4xQzk1IDIyLjEgNzkuOSAyMS44IDc2LjkgMjEuOGMtMTcuNiAwLTMzLjMgMTAuNS0zOS45IDI2LjctLjYgMS4zLTEuOCAyLjMtMy40IDIuM2gtLjRjLTUuOCAwLTEwLjYgNC44LTEwLjYgMTAuN3YuNWMwIDEuNC0uOCAyLjYtMS45IDMuM0MxMy40IDY5IDguOCA3Ni44IDguOCA4NWMwIDEyLjIgOS45IDIyLjMgMjIuMiAyMi4zaDQ1LjJjMy42LS4xIDE3LjYtLjkgMjkuNi0xMiAyLjktMi44IDEzLjktMTMuNyAxNC0zMXoiIGZpbGw9IiM1NzRBQjgiLz48cGF0aCBkPSJNMTEwLjggNTcuNGwuMiAzLjNjMCAxLjMtMS4xIDIuNC0yLjMgMi40LTEuMyAwLTIuMy0xLjEtMi4zLTIuNGwtLjEtMi44di0uM2MwLTEuMi45LTIuMiAyLjEtMi4zaC4zYy43IDAgMS4zLjMgMS43LjctLjIuMS4zLjUuNCAxLjR6bS0zLjMtMTAuM2MwIDEuMi0xIDIuMy0yLjIgMi4zaC0uMWMtLjggMC0xLjYtLjUtMi0xLjItNC42LTguMy0xMy4zLTEzLjUtMjIuOC0xMy41LTEuMiAwLTIuMy0xLTIuMy0yLjJ2LS4xYzAtMS4yIDEtMi4zIDIuMi0yLjNoLjFhMzAuMzcgMzAuMzcgMCAwIDEgMTUuOCA0LjRjNC42IDIuOCA4LjQgNi44IDExLjEgMTEuNS4xLjMuMi43LjIgMS4xek04OC4zIDczLjhMNzMuNSA5My4yYy0xLjUgMS45LTMuNSAzLjEtNS43IDMuNWgtLjJjLS40LjEtLjguMS0xLjIuMS0uNiAwLTEuMS0uMS0xLjYtLjItMi4yLS40LTQuMi0xLjctNS42LTMuNUw0NC4zIDczLjljLTItMi42LTIuNS01LjQtMS40LTcuNy4xLS4xLjEtLjIuMi0uMiAxLjItMiAzLjUtMy4yIDYuNC0zLjJoNi42di01LjdjMC02LjggNC43LTEyIDEwLjktMTIgNC44IDAgOC41IDIuNiAxMC4zIDcuMi41IDEuMy0uMiAyLjctMS41IDMuMnMtMi44LS4xLTMuMy0xLjRjLTEuMS0yLjctMi45LTQtNS41LTQtMy41IDAtNiAzLTYgN3Y4LjFjMCAuNS0uMiAxLS42IDEuNC0uNi43LTEuNyAxLjEtMi42IDEuMWgtOC40Yy0xLjMgMC0yIC40LTIuMS43LS4yLjQgMCAxLjMuOSAyLjRMNjMuMSA5MGMuOSAxLjIgMi4xIDEuOCAzLjMgMS44czIuMy0uNiAzLjEtMS43bDE0LjgtMTkuM2MuOS0xLjEgMS4xLTIgLjktMi40LS4yLS4zLS45LS43LTIuMS0uN2gtNy42Yy0uOSAwLTEuNy0uNS0yLjEtMS4yLS4zLS40LS40LS44LS40LTEuMyAwLTEuNCAxLjEtMi41IDIuNS0yLjVoNy42YzMuMSAwIDUuNSAxLjMgNi42IDMuNWwuMy43Yy43IDIuMS4xIDQuNi0xLjcgNi45eiIgZmlsbD0iI2ZmZiIvPjwvZz48Zz48cGF0aCBkPSJNMCAxMDAgUTY0IDExNSAxMjggMTAwIEwxMjggMTI4IEwwIDEyOCBaIiBmaWxsPSIjRDMyRjJGIi8+PHBhdGggZD0iTTAgMTAwIFE2NCAxMTUgMTI4IDEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2dvbGRHcmFkaWVudCkiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjY0IiB5PSIxMjEiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9InVybCgjZ29sZEdyYWRpZW50KSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgc3R5bGU9InRleHQtc2hhZG93OiAwcHggMXB4IDJweCByZ2JhKDAsMCwwLDAuMyk7Ij7liIYg5LiNIOi1t+OAgOe6ryDpnaAg54ixPC90ZXh0PjwvZz48L3N2Zz4=
 // @description       (｡>ᴗ•)✧《也许同类型中最好用？》系列 - 一个基于 JavaScript 的网盘文件下载地址获取工具✨，基于【网盘直链下载助手】修改 | 支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘 | 开源・自用・去广 | 改界面・添功能・修Bug | 既超越原版，亦是同类中最好用版本！👋
 // @description:zh-CN (｡>ᴗ•)✧《也许同类型中最好用？》系列 - 一个基于 JavaScript 的网盘文件下载地址获取工具✨，基于【网盘直链下载助手】修改 | 支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘 | 开源・自用・去广 | 改界面・添功能・修Bug | 既超越原版，亦是同类中最好用版本！👋
 // @description:zh-TW (｡>ᴗ•)✧《也許同類型中最好用？》系列 - 一個基於 JavaScript 的網盤檔案下載地址獲取工具✨，基於【網盤直鏈下載助手】改編 | 支援 百度網盤 / 阿里雲盤 / 中國移動雲盤 / 天翼雲盤 / 迅雷雲盤 / 夸克網盤 / UC網盤 / 123雲盤 八大平台 | 開源・自用・除廣 | 改介面・擴功能・修Bug | 既超越原版，亦是同類中最好用版本！👋
@@ -21,6 +21,7 @@
 // @resource SwalLigt https://unpkg.com/sweetalert2@11.4.8/dist/sweetalert2.min.css
 // @resource SwalDark https://unpkg.com/@sweetalert2/theme-dark@5.0.26/dark.min.css
 // @require           https://unpkg.com/js-md5@0.7.3/build/md5.min.js
+// @require           https://unpkg.com/js-sha256@0.11.1/src/sha256.js
 // @run-at            document-start
 // @early-start
 // @match             *://pan.baidu.com/disk/home*
@@ -100,6 +101,7 @@
 // @compatible	      Safari
 // @compatible	      Opera
 // ==/UserScript==
+// @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8+PHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8+PHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=
 /**
  * @name LinkSwift
  * @template （改）网盘直链下载助手
@@ -107,7 +109,7 @@
  * @author hmjz100
  * @namespace github.com/hmjz100
  * @description  一个基于 JavaScript 盘的文件下载地址获取工具  支持 百度网盘/阿里云盘/中国移动云盘/天翼云盘/迅雷云盘/夸克网盘/UC网盘/123云盘 八大网盘  代码改自 “网盘直链下载助手”，作者油小猴
- * @version 1.1.2.1
+ * @version 1.1.3
  * @license AGPL-3.0-or-later
  * @see {@link https://github.com/hmjz100/LinkSwift/ Github 仓库}
  */
@@ -124,8 +126,8 @@
 	let info = {
 		author: GM_info.script?.author,
 		name: GM_info.script?.name,
-		version: (GM_info.script?.version || "1.1.2.1"),
-		icon: (GM_info.script?.icon || "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8+PHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8+PHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="),
+		version: (GM_info.script?.version || "1.1.3"),
+		icon: (GM_info.script?.icon || "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImdvbGRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkY1OUQ7c3RvcC1vcGFjaXR5OjEiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRDcwMDtzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZCQzAyRDtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYuNCwgLTIpIHNjYWxlKDAuOSkiPjxwYXRoIGQ9Ik0xMDMuNiAxMDcuNGMzLjUtMi4yIDguOS02LjEgMTMuOC0xMi41czcuMy0xMi41IDguNS0xNi41Yy41LTEuNyAyLjItNy41IDIuMi0xNC43IDAtMTAuMS0zLjMtMjUuMS0xNS40LTM2LjgtMTQuNS0xNC0zMi4xLTE0LjMtMzUuNy0xNC4zLTggMC0xNS43IDEuOS0yMi42IDUuMkM0NCAyMyAzNS43IDMxLjQgMzAuOCA0MS43Yy0xLjMgMi44LTQgNC43LTcuMSA1LTQgLjMtNy41IDQuNC04LjkgOS42LS41IDEuOS0xLjYgMy41LTMuMSA0LjdDNC40IDY2LjggMCA3NS43IDAgODVjMCA2LjggMi4zIDEzLjEgNi4xIDE4LjIgNS41IDcuNCAxNC4yIDEyLjIgMjQgMTIuMmg0Ny4xYzQuNCAwIDExLS41IDE4LjMtMy41IDMuMi0xLjQgNS45LTMgOC4xLTQuNXoiIGZpbGw9IiNBMDk5RjAiLz48cGF0aCBkPSJNMTE5LjggNjQuM2MuMS0xNy4xLTEwLjQtMjgtMTIuNS0zMC4xQzk1IDIyLjEgNzkuOSAyMS44IDc2LjkgMjEuOGMtMTcuNiAwLTMzLjMgMTAuNS0zOS45IDI2LjctLjYgMS4zLTEuOCAyLjMtMy40IDIuM2gtLjRjLTUuOCAwLTEwLjYgNC44LTEwLjYgMTAuN3YuNWMwIDEuNC0uOCAyLjYtMS45IDMuM0MxMy40IDY5IDguOCA3Ni44IDguOCA4NWMwIDEyLjIgOS45IDIyLjMgMjIuMiAyMi4zaDQ1LjJjMy42LS4xIDE3LjYtLjkgMjkuNi0xMiAyLjktMi44IDEzLjktMTMuNyAxNC0zMXoiIGZpbGw9IiM1NzRBQjgiLz48cGF0aCBkPSJNMTEwLjggNTcuNGwuMiAzLjNjMCAxLjMtMS4xIDIuNC0yLjMgMi40LTEuMyAwLTIuMy0xLjEtMi4zLTIuNGwtLjEtMi44di0uM2MwLTEuMi45LTIuMiAyLjEtMi4zaC4zYy43IDAgMS4zLjMgMS43LjctLjIuMS4zLjUuNCAxLjR6bS0zLjMtMTAuM2MwIDEuMi0xIDIuMy0yLjIgMi4zaC0uMWMtLjggMC0xLjYtLjUtMi0xLjItNC42LTguMy0xMy4zLTEzLjUtMjIuOC0xMy41LTEuMiAwLTIuMy0xLTIuMy0yLjJ2LS4xYzAtMS4yIDEtMi4zIDIuMi0yLjNoLjFhMzAuMzcgMzAuMzcgMCAwIDEgMTUuOCA0LjRjNC42IDIuOCA4LjQgNi44IDExLjEgMTEuNS4xLjMuMi43LjIgMS4xek04OC4zIDczLjhMNzMuNSA5My4yYy0xLjUgMS45LTMuNSAzLjEtNS43IDMuNWgtLjJjLS40LjEtLjguMS0xLjIuMS0uNiAwLTEuMS0uMS0xLjYtLjItMi4yLS40LTQuMi0xLjctNS42LTMuNUw0NC4zIDczLjljLTItMi42LTIuNS01LjQtMS40LTcuNy4xLS4xLjEtLjIuMi0uMiAxLjItMiAzLjUtMy4yIDYuNC0zLjJoNi42di01LjdjMC02LjggNC43LTEyIDEwLjktMTIgNC44IDAgOC41IDIuNiAxMC4zIDcuMi41IDEuMy0uMiAyLjctMS41IDMuMnMtMi44LS4xLTMuMy0xLjRjLTEuMS0yLjctMi45LTQtNS41LTQtMy41IDAtNiAzLTYgN3Y4LjFjMCAuNS0uMiAxLS42IDEuNC0uNi43LTEuNyAxLjEtMi42IDEuMWgtOC40Yy0xLjMgMC0yIC40LTIuMS43LS4yLjQgMCAxLjMuOSAyLjRMNjMuMSA5MGMuOSAxLjIgMi4xIDEuOCAzLjMgMS44czIuMy0uNiAzLjEtMS43bDE0LjgtMTkuM2MuOS0xLjEgMS4xLTIgLjktMi40LS4yLS4zLS45LS43LTIuMS0uN2gtNy42Yy0uOSAwLTEuNy0uNS0yLjEtMS4yLS4zLS40LS40LS44LS40LTEuMyAwLTEuNCAxLjEtMi41IDIuNS0yLjVoNy42YzMuMSAwIDUuNSAxLjMgNi42IDMuNWwuMy43Yy43IDIuMS4xIDQuNi0xLjcgNi45eiIgZmlsbD0iI2ZmZiIvPjwvZz48Zz48cGF0aCBkPSJNMCAxMDAgUTY0IDExNSAxMjggMTAwIEwxMjggMTI4IEwwIDEyOCBaIiBmaWxsPSIjRDMyRjJGIi8+PHBhdGggZD0iTTAgMTAwIFE2NCAxMTUgMTI4IDEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2dvbGRHcmFkaWVudCkiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjY0IiB5PSIxMjEiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9InVybCgjZ29sZEdyYWRpZW50KSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgc3R5bGU9InRleHQtc2hhZG93OiAwcHggMXB4IDJweCByZ2JhKDAsMCwwLDAuMyk7Ij7liIYg5LiNIOi1t+OAgOe6ryDpnaAg54ixPC90ZXh0PjwvZz48L3N2Zz4="),
 		mhandler: GM_info.scriptHandler,
 		mversion: GM_info.version,
 	};
@@ -136,9 +138,9 @@
 		page: "",
 		mode: [],
 		links: [],
+		glinks: [],
 		color: "",
 		request: {},
-		selectList: [],
 		colored: false,
 		swalDefault: {
 			position: "center",
@@ -158,10 +160,10 @@
 	};
 
 	/**
-	 * SweetAlert2 的 Toast 提示框基础配置
+	 * SweetAlert2 的 Toast 指示框基础配置
 	 * @author 油小猴
 	 * @author hmjz100
-	 * @description 创建一个全局通用的 Toast 提示框实例，支持自动关闭、鼠标悬停暂停、右上角弹出等特性。
+	 * @description 创建一个全局通用的 Toast 指示框实例，支持自动关闭、鼠标悬停暂停、右上角弹出等特性。
 	 *
 	 * @type{Sweetalert2.Toast}
 	 */
@@ -286,7 +288,8 @@
 				getLink: "https://pan.baidu.com/rest/2.0/xpan/multimedia?method=filemetas&dlink=1",
 				getFiles: "https://pan.baidu.com/rest/2.0/xpan/file?method=list&showempty=1",
 				getShareLink: "https://pan.baidu.com/api/sharedownload?channel=chunlei&clienttype=0&web=1&app_id=250528",
-				getShareInfo: "https://pan.baidu.com/share/tplconfig?fields=sign,timestamp&channel=chunlei&web=1&app_id=250528&clienttype=0",
+				getShareSign: "https://pan.baidu.com/share/tplconfig?fields=sign,timestamp&channel=chunlei&web=1&app_id=250528&clienttype=0&view_mode=1",
+				getShareVerify: "https://pan.baidu.com/share/verify?channel=chunlei&clienttype=0&web=1&app_id=250528",
 				getShareFiles: "https://pan.baidu.com/rest/2.0/xpan/share?method=list&showempty=1"
 			},
 			mount: {
@@ -349,7 +352,7 @@
 		$xunlei: {
 			api: {
 				mirror: [
-					"vod0007-h05-vip-lixian.xunlei.com", "vod0008-h05-vip-lixian.xunlei.com", "vod0009-h05-vip-lixian.xunlei.com", "vod0010-h05-vip-lixian.xunlei.com", "vod0011-h05-vip-lixian.xunlei.com", "vod0012-h05-vip-lixian.xunlei.com", "vod0013-h05-vip-lixian.xunlei.com", "vod0014-h05-vip-lixian.xunlei.com", "vod0067-aliyun08-vip-lixian.xunlei.com", "vod0254-aliyun08-vip-lixian.xunlei.com", "vod0255-aliyun08-vip-lixian.xunlei.com", "vod0256-aliyun08-vip-lixian.xunlei.com", "vod0257-aliyun08-vip-lixian.xunlei.com", "vod0258-aliyun08-vip-lixian.xunlei.com", "vod0259-aliyun08-vip-lixian.xunlei.com", "vod0260-aliyun08-vip-lixian.xunlei.com", "vod0261-aliyun08-vip-lixian.xunlei.com", "vod0262-aliyun08-vip-lixian.xunlei.com", "vod0263-aliyun08-vip-lixian.xunlei.com", "vod0264-aliyun08-vip-lixian.xunlei.com", "vod0265-aliyun08-vip-lixian.xunlei.com", "vod0266-aliyun08-vip-lixian.xunlei.com", "vod0267-aliyun08-vip-lixian.xunlei.com", "vod0554-aliyun06-vip-lixian.xunlei.com", "vod0555-aliyun06-vip-lixian.xunlei.com", "vod0556-aliyun06-vip-lixian.xunlei.com", "vod0680-aliyun08-vip-lixian.xunlei.com", "vod0681-aliyun08-vip-lixian.xunlei.com", "vod0682-aliyun08-vip-lixian.xunlei.com", "vod0683-aliyun08-vip-lixian.xunlei.com", "vod0684-aliyun08-vip-lixian.xunlei.com", "vod0685-aliyun08-vip-lixian.xunlei.com", "vod0686-aliyun08-vip-lixian.xunlei.com", "vod0687-aliyun08-vip-lixian.xunlei.com", "vod0688-aliyun08-vip-lixian.xunlei.com", "vod0689-aliyun08-vip-lixian.xunlei.com", "vod0690-aliyun08-vip-lixian.xunlei.com", "vod0724-aliyun08-vip-lixian.xunlei.com", "vod0725-aliyun08-vip-lixian.xunlei.com", "vod0726-aliyun08-vip-lixian.xunlei.com", "vod0727-aliyun08-vip-lixian.xunlei.com", "vod0728-aliyun08-vip-lixian.xunlei.com", "vod0075.aliyun06.vip.lixian.xunlei.com", "vod0076.aliyun06.vip.lixian.xunlei.com", "vod0077.aliyun06.vip.lixian.xunlei.com", "vod0779-aliyun04-vip-lixian.xunlei.com", "vod0078.aliyun06.vip.lixian.xunlei.com", "vod0780-aliyun04-vip-lixian.xunlei.com", "vod0781-aliyun04-vip-lixian.xunlei.com", "vod0079.aliyun06.vip.lixian.xunlei.com", "vod0080.aliyun06.vip.lixian.xunlei.com", "vod0117.aliyun04.vip.lixian.xunlei.com", "vod0118.aliyun04.vip.lixian.xunlei.com", "vod0119.aliyun04.vip.lixian.xunlei.com", "vod1284-aliyun06-vip-lixian.xunlei.com", "vod1285-aliyun06-vip-lixian.xunlei.com", "vod1363-aliyun06-vip-lixian.xunlei.com", "vod1371-aliyun06-vip-lixian.xunlei.com", "vod1372-aliyun06-vip-lixian.xunlei.com", "vod1426-aliyun06-vip-lixian.xunlei.com", "vod1427-aliyun06-vip-lixian.xunlei.com", "vod1428-aliyun06-vip-lixian.xunlei.com", "vod1429-aliyun06-vip-lixian.xunlei.com", "vod1442-aliyun06-vip-lixian.xunlei.com", "vod1443-aliyun06-vip-lixian.xunlei.com", "vod1444-aliyun06-vip-lixian.xunlei.com", "vod1445-aliyun06-vip-lixian.xunlei.com", "vod1446-aliyun06-vip-lixian.xunlei.com", "vod1447-aliyun06-vip-lixian.xunlei.com", "vod1469-aliyun06-vip-lixian.xunlei.com", "vod1470-aliyun06-vip-lixian.xunlei.com", "vod1471-aliyun06-vip-lixian.xunlei.com", "vod1489-aliyun06-vip-lixian.xunlei.com", "vod1490-aliyun06-vip-lixian.xunlei.com", "vod1491-aliyun06-vip-lixian.xunlei.com", "vod1492-aliyun06-vip-lixian.xunlei.com", "vod1493-aliyun06-vip-lixian.xunlei.com", "vod0215.aliyun06.vip.lixian.xunlei.com", "vod0216.aliyun06.vip.lixian.xunlei.com", "vod0217.aliyun06.vip.lixian.xunlei.com", "vod0218.aliyun06.vip.lixian.xunlei.com", "vod0219.aliyun06.vip.lixian.xunlei.com", "vod0220.aliyun06.vip.lixian.xunlei.com", "vod0241.aliyun08.vip.lixian.xunlei.com", "vod0244.aliyun08.vip.lixian.xunlei.com", "vod0251.aliyun08.vip.lixian.xunlei.com", "vod0252.aliyun08.vip.lixian.xunlei.com", "vod0253.aliyun08.vip.lixian.xunlei.com", "vod0254.aliyun08.vip.lixian.xunlei.com", "vod0255.aliyun08.vip.lixian.xunlei.com", "vod0256.aliyun08.vip.lixian.xunlei.com", "vod0257.aliyun08.vip.lixian.xunlei.com", "vod0260.aliyun08.vip.lixian.xunlei.com", "vod0261.aliyun08.vip.lixian.xunlei.com", "vod0262.aliyun08.vip.lixian.xunlei.com", "vod0263.aliyun08.vip.lixian.xunlei.com", "vod0264.aliyun08.vip.lixian.xunlei.com", "vod0265.aliyun08.vip.lixian.xunlei.com", "vod0266.aliyun08.vip.lixian.xunlei.com", "vod0267.aliyun08.vip.lixian.xunlei.com", "vod3379-aliyun04-vip-lixian.xunlei.com", "vod3380-aliyun04-vip-lixian.xunlei.com", "vod3429-aliyun04-vip-lixian.xunlei.com", "vod3458-aliyun04-vip-lixian.xunlei.com", "vod3459-aliyun04-vip-lixian.xunlei.com", "vod3496-aliyun04-vip-lixian.xunlei.com", "vod3497-aliyun04-vip-lixian.xunlei.com", "vod3498-aliyun04-vip-lixian.xunlei.com", "vod3499-aliyun04-vip-lixian.xunlei.com", "vod3500-aliyun04-vip-lixian.xunlei.com", "vod3501-aliyun04-vip-lixian.xunlei.com", "vod3522-aliyun04-vip-lixian.xunlei.com", "vod3523-aliyun04-vip-lixian.xunlei.com", "vod3533-aliyun04-vip-lixian.xunlei.com", "vod3534-aliyun04-vip-lixian.xunlei.com", "vod3535-aliyun04-vip-lixian.xunlei.com", "vod3536-aliyun04-vip-lixian.xunlei.com", "vod3549-aliyun04-vip-lixian.xunlei.com", "vod3550-aliyun04-vip-lixian.xunlei.com", "vod3551-aliyun04-vip-lixian.xunlei.com", "vod3552-aliyun04-vip-lixian.xunlei.com", "vod3553-aliyun04-vip-lixian.xunlei.com", "vod3554-aliyun04-vip-lixian.xunlei.com", "vod3555-aliyun04-vip-lixian.xunlei.com", "vod0551.aliyun06.vip.lixian.xunlei.com", "vod0552.aliyun06.vip.lixian.xunlei.com", "vod0553.aliyun06.vip.lixian.xunlei.com", "vod0554.aliyun06.vip.lixian.xunlei.com", "vod0555.aliyun06.vip.lixian.xunlei.com", "vod0556.aliyun06.vip.lixian.xunlei.com", "vod0686.aliyun08.vip.lixian.xunlei.com", "vod0687.aliyun08.vip.lixian.xunlei.com", "vod0688.aliyun08.vip.lixian.xunlei.com", "vod0689.aliyun08.vip.lixian.xunlei.com", "vod0724.aliyun08.vip.lixian.xunlei.com", "vod0725.aliyun08.vip.lixian.xunlei.com", "vod0726.aliyun08.vip.lixian.xunlei.com", "vod0727.aliyun08.vip.lixian.xunlei.com", "vod0728.aliyun08.vip.lixian.xunlei.com", "vod0759.aliyun04.vip.lixian.xunlei.com", "vod0760.aliyun04.vip.lixian.xunlei.com", "vod0769.aliyun04.vip.lixian.xunlei.com", "vod0770.aliyun04.vip.lixian.xunlei.com", "vod0771.aliyun04.vip.lixian.xunlei.com", "vod0772.aliyun04.vip.lixian.xunlei.com", "vod0773.aliyun04.vip.lixian.xunlei.com", "vod0774.aliyun04.vip.lixian.xunlei.com", "vod0775.aliyun04.vip.lixian.xunlei.com", "vod0776.aliyun04.vip.lixian.xunlei.com", "vod0777.aliyun04.vip.lixian.xunlei.com", "vod0778.aliyun04.vip.lixian.xunlei.com", "vod0779.aliyun04.vip.lixian.xunlei.com", "vod0780.aliyun04.vip.lixian.xunlei.com", "vod0781.aliyun04.vip.lixian.xunlei.com", "vod3522.aliyun04.vip.lixian.xunlei.com", "vod3523.aliyun04.vip.lixian.xunlei.com", "vod3533.aliyun04.vip.lixian.xunlei.com", "vod3535.aliyun04.vip.lixian.xunlei.com", "vod3550.aliyun04.vip.lixian.xunlei.com", "vod3551.aliyun04.vip.lixian.xunlei.com", "vod3552.aliyun04.vip.lixian.xunlei.com", "vod3553.aliyun04.vip.lixian.xunlei.com", "vod3554.aliyun04.vip.lixian.xunlei.com", "vod3555.aliyun04.vip.lixian.xunlei.com"
+					"vod0780-aliyun04-vip-lixian.xunlei.com", "vod0781-aliyun04-vip-lixian.xunlei.com", "vod3379-aliyun04-vip-lixian.xunlei.com", "vod3429-aliyun04-vip-lixian.xunlei.com", "vod3459-aliyun04-vip-lixian.xunlei.com", "vod3533-aliyun04-vip-lixian.xunlei.com", "vod4252-aliyun04-vip-lixian.xunlei.com", "vod4253-aliyun04-vip-lixian.xunlei.com", "vod4320-aliyun04-vip-lixian.xunlei.com", "vod4321-aliyun04-vip-lixian.xunlei.com", "vod0555-aliyun06-vip-lixian.xunlei.com", "vod0556-aliyun06-vip-lixian.xunlei.com", "vod1284-aliyun06-vip-lixian.xunlei.com", "vod1285-aliyun06-vip-lixian.xunlei.com", "vod1363-aliyun06-vip-lixian.xunlei.com", "vod1372-aliyun06-vip-lixian.xunlei.com", "vod1629-aliyun06-vip-lixian.xunlei.com", "vod1630-aliyun06-vip-lixian.xunlei.com", "vod1703-aliyun06-vip-lixian.xunlei.com", "vod1704-aliyun06-vip-lixian.xunlei.com", "vod1844-aliyun06-vip-lixian.xunlei.com", "vod0254-aliyun08-vip-lixian.xunlei.com", "vod0255-aliyun08-vip-lixian.xunlei.com", "vod0256-aliyun08-vip-lixian.xunlei.com", "vod0257-aliyun08-vip-lixian.xunlei.com", "vod0261-aliyun08-vip-lixian.xunlei.com", "vod0262-aliyun08-vip-lixian.xunlei.com", "vod0263-aliyun08-vip-lixian.xunlei.com", "vod0264-aliyun08-vip-lixian.xunlei.com", "vod0759-aliyun08-vip-lixian.xunlei.com", "vod0760-aliyun08-vip-lixian.xunlei.com", "vod9410-aliyun08-vip-lixian.xunlei.com", "vod9411-aliyun08-vip-lixian.xunlei.com", "vod9412-aliyun08-vip-lixian.xunlei.com", "vod0080-b02-vip-lixian.xunlei.com", "vod0432-b02-vip-lixian.xunlei.com", "vod0531-b02-vip-lixian.xunlei.com", "vod0532-b02-vip-lixian.xunlei.com", "vod0533-b02-vip-lixian.xunlei.com", "vod0534-b02-vip-lixian.xunlei.com", "vod0537-b02-vip-lixian.xunlei.com", "vod0563-b02-vip-lixian.xunlei.com", "vod0565-b02-vip-lixian.xunlei.com", "vod0566-b02-vip-lixian.xunlei.com", "vod0568-b02-vip-lixian.xunlei.com", "vod0571-b02-vip-lixian.xunlei.com", "vod0572-b02-vip-lixian.xunlei.com", "vod0573-b02-vip-lixian.xunlei.com", "vod0595-b02-vip-lixian.xunlei.com", "vod0596-b02-vip-lixian.xunlei.com", "vod0597-b02-vip-lixian.xunlei.com", "vod0598-b02-vip-lixian.xunlei.com", "vod0636-b02-vip-lixian.xunlei.com", "vod0637-b02-vip-lixian.xunlei.com", "vod0638-b02-vip-lixian.xunlei.com", "vod0639-b02-vip-lixian.xunlei.com", "vod0640-b02-vip-lixian.xunlei.com", "vod0641-b02-vip-lixian.xunlei.com", "vod0642-b02-vip-lixian.xunlei.com", "vod0643-b02-vip-lixian.xunlei.com", "vod0644-b02-vip-lixian.xunlei.com", "vod0645-b02-vip-lixian.xunlei.com", "vod0646-b02-vip-lixian.xunlei.com", "vod0647-b02-vip-lixian.xunlei.com", "vod0648-b02-vip-lixian.xunlei.com", "vod0649-b02-vip-lixian.xunlei.com", "vod0650-b02-vip-lixian.xunlei.com", "vod0651-b02-vip-lixian.xunlei.com", "vod0652-b02-vip-lixian.xunlei.com", "vod0653-b02-vip-lixian.xunlei.com", "vod0654-b02-vip-lixian.xunlei.com", "vod0725-b02-vip-lixian.xunlei.com", "vod0726-b02-vip-lixian.xunlei.com", "vod0727-b02-vip-lixian.xunlei.com", "vod0006-b05-vip-lixian.xunlei.com", "vod0009-b05-vip-lixian.xunlei.com", "vod0010-b05-vip-lixian.xunlei.com", "vod0011-b05-vip-lixian.xunlei.com", "vod0012-b05-vip-lixian.xunlei.com", "vod0013-b05-vip-lixian.xunlei.com", "vod0014-b05-vip-lixian.xunlei.com", "vod0043-b05-vip-lixian.xunlei.com", "vod0044-b05-vip-lixian.xunlei.com", "vod0045-b05-vip-lixian.xunlei.com", "vod0051-b05-vip-lixian.xunlei.com", "vod0053-b05-vip-lixian.xunlei.com", "vod0054-b05-vip-lixian.xunlei.com", "vod0055-b05-vip-lixian.xunlei.com", "vod0139-b05-vip-lixian.xunlei.com", "vod0140-b05-vip-lixian.xunlei.com", "vod0141-b05-vip-lixian.xunlei.com", "vod0142-b05-vip-lixian.xunlei.com", "vod0143-b05-vip-lixian.xunlei.com", "vod0349-b05-vip-lixian.xunlei.com", "vod0001-c01-vip-lixian.xunlei.com", "vod0002-c01-vip-lixian.xunlei.com", "vod0003-c01-vip-lixian.xunlei.com", "vod0004-c01-vip-lixian.xunlei.com", "vod0005-c01-vip-lixian.xunlei.com", "vod0070-h01-vip-lixian.xunlei.com", "vod0071-h01-vip-lixian.xunlei.com", "vod0074-h01-vip-lixian.xunlei.com", "vod0075-h01-vip-lixian.xunlei.com", "vod0131-h01-vip-lixian.xunlei.com", "vod0132-h01-vip-lixian.xunlei.com", "vod0153-h01-vip-lixian.xunlei.com", "vod0088-h04-vip-lixian.xunlei.com", "vod0089-h04-vip-lixian.xunlei.com", "vod0090-h04-vip-lixian.xunlei.com", "vod0091-h04-vip-lixian.xunlei.com", "vod0092-h04-vip-lixian.xunlei.com", "vod0093-h04-vip-lixian.xunlei.com", "vod0094-h04-vip-lixian.xunlei.com", "vod0097-h04-vip-lixian.xunlei.com", "vod0098-h04-vip-lixian.xunlei.com", "vod0099-h04-vip-lixian.xunlei.com", "vod0100-h04-vip-lixian.xunlei.com", "vod0101-h04-vip-lixian.xunlei.com", "vod0105-h04-vip-lixian.xunlei.com", "vod0128-h04-vip-lixian.xunlei.com", "vod0129-h04-vip-lixian.xunlei.com", "vod0143-h04-vip-lixian.xunlei.com", "vod0317-h04-vip-lixian.xunlei.com", "vod0318-h04-vip-lixian.xunlei.com", "vod0319-h04-vip-lixian.xunlei.com", "vod0320-h04-vip-lixian.xunlei.com", "vod0003-h05-vip-lixian.xunlei.com", "vod0004-h05-vip-lixian.xunlei.com", "vod0007-h05-vip-lixian.xunlei.com", "vod0008-h05-vip-lixian.xunlei.com", "vod0009-h05-vip-lixian.xunlei.com", "vod0010-h05-vip-lixian.xunlei.com", "vod0012-h05-vip-lixian.xunlei.com", "vod0013-h05-vip-lixian.xunlei.com", "vod0014-h05-vip-lixian.xunlei.com", "vod0017-h05-vip-lixian.xunlei.com", "vod0097-h05-vip-lixian.xunlei.com", "vod0098-h05-vip-lixian.xunlei.com", "vod0099-h05-vip-lixian.xunlei.com", "vod0116-h05-vip-lixian.xunlei.com", "vod0117-h05-vip-lixian.xunlei.com", "vod0121-h05-vip-lixian.xunlei.com", "vod0122-h05-vip-lixian.xunlei.com", "vod0131-h05-vip-lixian.xunlei.com", "vod0145-h05-vip-lixian.xunlei.com", "vod0146-h05-vip-lixian.xunlei.com", "vod0184-h05-vip-lixian.xunlei.com", "vod0185-h05-vip-lixian.xunlei.com", "vod0221-h05-vip-lixian.xunlei.com", "vod0222-h05-vip-lixian.xunlei.com", "vod0223-h05-vip-lixian.xunlei.com", "vod0224-h05-vip-lixian.xunlei.com", "vod0225-h05-vip-lixian.xunlei.com", "vod0227-h05-vip-lixian.xunlei.com", "vod0252-h05-vip-lixian.xunlei.com", "vod0253-h05-vip-lixian.xunlei.com", "vod0254-h05-vip-lixian.xunlei.com", "vod0001-m01-vip-lixian.xunlei.com", "vod0002-m01-vip-lixian.xunlei.com", "vod0003-m01-vip-lixian.xunlei.com", "vod0006-m01-vip-lixian.xunlei.com", "vod0007-m01-vip-lixian.xunlei.com", "vod0008-m01-vip-lixian.xunlei.com", "vod0010-m01-vip-lixian.xunlei.com", "vod0011-m01-vip-lixian.xunlei.com", "vod0012-m01-vip-lixian.xunlei.com", "vod0013-m01-vip-lixian.xunlei.com", "vod0014-m01-vip-lixian.xunlei.com", "vod0019-m01-vip-lixian.xunlei.com", "vod0020-m01-vip-lixian.xunlei.com", "vod0021-m01-vip-lixian.xunlei.com", "vod0022-m01-vip-lixian.xunlei.com", "vod0064-txyun08-vip-lixian.xunlei.com", "vod0065-txyun08-vip-lixian.xunlei.com", "vod0066-txyun08-vip-lixian.xunlei.com", "vod0067-txyun08-vip-lixian.xunlei.com", "vod0068-txyun08-vip-lixian.xunlei.com", "vod0069-txyun08-vip-lixian.xunlei.com", "vod0070-txyun08-vip-lixian.xunlei.com", "vod0340-txyun08-vip-lixian.xunlei.com", "vod0341-txyun08-vip-lixian.xunlei.com", "vod0032-z01-vip-lixian.xunlei.com", "vod0035-z01-vip-lixian.xunlei.com", "vod0036-z01-vip-lixian.xunlei.com", "vod0037-z01-vip-lixian.xunlei.com", "vod0038-z01-vip-lixian.xunlei.com", "vod0039-z01-vip-lixian.xunlei.com", "vod0040-z01-vip-lixian.xunlei.com", "vod0041-z01-vip-lixian.xunlei.com", "vod0042-z01-vip-lixian.xunlei.com", "vod0091-z01-vip-lixian.xunlei.com", "vod0093-z01-vip-lixian.xunlei.com", "vod0131-z01-vip-lixian.xunlei.com", "vod0135-z01-vip-lixian.xunlei.com", "vod0136-z01-vip-lixian.xunlei.com", "vod0146-z01-vip-lixian.xunlei.com", "vod0155-z01-vip-lixian.xunlei.com", "vod0156-z01-vip-lixian.xunlei.com", "vod0167-z01-vip-lixian.xunlei.com", "vod0195-z01-vip-lixian.xunlei.com", "vod0196-z01-vip-lixian.xunlei.com", "vod0281-z01-vip-lixian.xunlei.com"
 				],
 				getLink: "https://api-pan.xunlei.com/drive/v1/files/"
 			},
@@ -444,7 +447,7 @@
 		 * @author 油小猴
 		 * @description 通过 Object.prototype.toString 精确识别对象类型
 		 * @param {*} obj - 待检测对象
-		 * @returns {string} 类型名称（全小写），如：array/number/null/date 等
+		 * @returns {String} 类型名称（全小写），如：array/number/null/date 等
 		 * @example
 		 * isType([]) // => "array"
 		 * isType(null) // => "null"
@@ -456,7 +459,7 @@
 		/**
 		 * 获取 GreaseMonkey-Compatible-Manager 存储的值
 		 * @author 油小猴
-		 * @param {string} name - 存储键名
+		 * @param {String} name - 存储键名
 		 * @returns {*} 存储的值
 		 */
 		getValue(name) {
@@ -466,7 +469,7 @@
 		/**
 		 * 设置 GreaseMonkey-Compatible-Manager 存储的值
 		 * @author 油小猴
-		 * @param {string|array} path - 存储键名或路径数组
+		 * @param {String|Array} path - 存储键名或路径数组
 		 * @param {*} value - 要存储的值
 		 */
 		setValue(path, value) {
@@ -489,7 +492,7 @@
 		/**
 		 * 删除 GreaseMonkey-Compatible-Manager 存储的值
 		 * @author 油小猴
-		 * @param {string|array} key - 单个键名
+		 * @param {String|Array} key - 单个键名
 		 */
 		delValue(key) {
 			return GM_deleteValue(key);
@@ -499,7 +502,7 @@
 		 * 从 localStorage 获取存储值
 		 * @description 自动解析 JSON 格式内容
 		 * @author 油小猴
-		 * @param {string} key - 存储键名
+		 * @param {String} key - 存储键名
 		 * @returns {*} 存储的原始值或解析后的对象
 		 */
 		getStorage(key) {
@@ -514,7 +517,7 @@
 		 * 设置 localStorage 存储值
 		 * @author 油小猴
 		 * @description 自动 `JSON.stringify` `对象` `数组` 类型的数据
-		 * @param {string} key - 存储键名
+		 * @param {String} key - 存储键名
 		 * @param {*} value - 要存储的值
 		 */
 		setStorage(key, value) {
@@ -528,7 +531,7 @@
 		 * 删除 localStorage 存储值
 		 * @author 油小猴
 		 * @description 没什么特别的
-		 * @param {string} key - 存储键名
+		 * @param {String} key - 存储键名
 		 */
 		delStorage(key) {
 			return localStorage.removeItem(key);
@@ -537,7 +540,7 @@
 		/**
 		 * 剪贴板写入
 		 * @author 油小猴
-		 * @param {string} text - 要复制的文本内容
+		 * @param {String} text - 要复制的文本内容
 		 */
 		setClipboard(text) {
 			GM_setClipboard(text, "text");
@@ -548,8 +551,8 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description 自动执行 URI 兼容性编码转换
-		 * @param {string} str - 待编码的字符串
-		 * @returns {string} Base64 编码结果字符串
+		 * @param {String} str - 待编码的字符串
+		 * @returns {String} Base64 编码结果字符串
 		 */
 		encodeBase(str) {
 			try { str = btoa(str) } catch { }
@@ -561,8 +564,8 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description 自动执行 URI 兼容性解码转换
-		 * @param {string} str - Base64 编码字符串
-		 * @returns {string} 解码后的原始字符串
+		 * @param {String} str - Base64 编码字符串
+		 * @returns {String} 解码后的原始字符串
 		 */
 		decodeBase(str) {
 			try { str = decodeURIComponent(str) } catch { }
@@ -575,8 +578,8 @@
 		 * 数字补零格式化
 		 * @author hmjz100
 		 * @description 对 1-9 的数字自动补前导零
-		 * @param {number} i - 待格式化的数字
-		 * @returns {string} 格式化后的字符串（如"05"）
+		 * @param {Number} i - 待格式化的数字
+		 * @returns {String} 格式化后的字符串（如"05"）
 		 */
 		timeFormat(i) {
 			if (i >= 0 && i <= 9) {
@@ -589,8 +592,8 @@
 		/**
 		 * 获取文件扩展名并转为大写
 		 * @author 油小猴
-		 * @param {string} name - 完整文件名
-		 * @returns {string} 大写的文件扩展名（如 `TXT`）
+		 * @param {String} name - 完整文件名
+		 * @returns {String} 大写的文件扩展名（如 `TXT`）
 		 */
 		getExtension(name) {
 			let reg = /(?!\.)\w+$/;
@@ -605,8 +608,8 @@
 		 * 文件大小格式化
 		 * @author hmjz100
 		 * @description 自动转换单位到最合适的存储单位（如 `1.2MB`），支持 1000/1024 进制切换
-		 * @param {number} value - 文件字节大小
-		 * @returns {string} 可读格式的大小描述
+		 * @param {Number} value - 文件字节大小
+		 * @returns {String} 可读格式的大小描述
 		 */
 		sizeFormat(value = 0) {
 			var sizeUnitBase = 1024
@@ -637,8 +640,8 @@
 		/**
 		 * 将剩余时间（秒）格式化为可读的时间字符串
 		 *
-		 * @param {number} remainingTimeSeconds 剩余总秒数（支持小数）
-		 * @returns {string} 格式化后的时间字符串，包含以下可能格式：
+		 * @param {Number} remainingTimeSeconds 剩余总秒数（支持小数）
+		 * @returns {String} 格式化后的时间字符串，包含以下可能格式：
 		 *   - "X天 HH时:MM分:SS秒"（超过1天）
 		 *   - "HH时:MM分:SS秒"（超过1小时）
 		 *   - "MM分:SS秒"（超过1分钟）
@@ -678,27 +681,27 @@
 		/**
 		 * 文件列表排序
 		 * @author 油小猴
+		 * @author hmjz100
 		 * @description 按中文拼音顺序对文件数组进行排序
 		 * @param {Array} arr - 包含文件对象的数组
-		 * @param {string} arr[].filename - 文件名属性（兼容 server_filename）
+		 * @param {String} arr[].filename - 文件名属性（兼容 server_filename）
 		 */
 		sortByName(arr) {
-			let handle = () => {
+			arr.sort(() => {
 				return (a, b) => {
 					let p1 = a.filename ? a.filename : a.server_filename;
 					let p2 = b.filename ? b.filename : b.server_filename;
 					return p1.localeCompare(p2, "zh-CN");
 				};
-			};
-			arr.sort(handle());
+			});
 		},
 
 		/**
 		 * 文件名安全处理
 		 * @author 油小猴
 		 * @description 替换非法字符为下划线
-		 * @param {string} name - 原始文件名
-		 * @returns {string} 修正后的安全文件名
+		 * @param {String} name - 原始文件名
+		 * @returns {String} 修正后的安全文件名
 		 */
 		fixFilename(name) {
 			let replace = /[!?&|`"'*\/:<>\\]/g
@@ -706,14 +709,24 @@
 		},
 
 		/**
-		 * Headers 标准化
+		 * 头标准化
 		 * @author hmjz100
-		 * @description 标准化 Headers 的键，使用驼峰命名
-		 * @param {object} headers - 原始文件名
-		 * @param {Boolean} notDeafult - 原始文件名
-		 * @returns {object} 标准化后的 Headers
+		 * @description 标准化请求头、响应头的键，使用驼峰命名
+		 * @param {String|Object} headers - 请求头、响应头的字符串或对象
+		 * @param {Boolean} addDeafult - 是否不添加默认头
+		 * @returns {Object} 标准化后的 Headers
 		 */
-		standHeaders(headers = {}, notDeafult = false) {
+		standHeaders(headers = {}, addDeafult = false) {
+			if (!headers) return {};
+			if (typeof headers === 'string') {
+				const rawHeaders = {};
+				headers.split(/[\r\n]+/).forEach(line => {
+					if (!line.trim() || !line.includes(':')) return;
+					const [key, ...valueParts] = line.split(':');
+					rawHeaders[key.trim().toLowerCase()] = valueParts.join(':').trim();
+				});
+				headers = rawHeaders;
+			}
 			let newHeaders = {};
 			for (let key in headers) {
 				let value
@@ -721,7 +734,7 @@
 				else value = String(headers[key]);
 				newHeaders[key.toLowerCase().split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join("-")] = value;
 			}
-			if (notDeafult) return newHeaders;
+			if (addDeafult) return newHeaders;
 			return {
 				"Dnt": "", "Cache-Control": "no-cache", "Pragma": "no-cache", "Expires": "0",
 				"User-Agent": navigator.userAgent,
@@ -736,10 +749,10 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description 根据终端类型生成对应 curl 命令，支持断点续传，自动处理文件名特殊字符
-		 * @param {string} link - 下载链接
-		 * @param {string} filename - 文件名
-		 * @param {string} [headers] - 自定义请求头参数（可选）
-		 * @returns {string} 编码后的 curl 命令字符串
+		 * @param {String} link - 下载链接
+		 * @param {String} filename - 文件名
+		 * @param {String} [headers] - 自定义请求头参数（可选）
+		 * @returns {String} 编码后的 curl 命令字符串
 		 */
 		convertLinkToCurl(link, filename, headers) {
 			let terminal = base.getValue("setting_curl_terminal");
@@ -752,10 +765,10 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description 将链接转换为 Aria2 格式命令，自动处理文件名特殊字符
-		 * @param {string} link - 下载链接
-		 * @param {string} filename - 文件名
-		 * @param {string} [headers] - 自定义请求头参数（可选）
-		 * @returns {string} 编码后的 aria2c 命令字符串
+		 * @param {String} link - 下载链接
+		 * @param {String} filename - 文件名
+		 * @param {String} [headers] - 自定义请求头参数（可选）
+		 * @returns {String} 编码后的 aria2c 命令字符串
 		 */
 		convertLinkToAria2(link, filename, headers) {
 			filename = base.fixFilename(filename);
@@ -767,10 +780,10 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description 将链接转换为 BC 协议格式，自动处理 URL 编码
-		 * @param {string} link - 下载链接
-		 * @param {string} filename - 文件名
-		 * @param {string} [headers] - 自定义请求头参数（可选）
-		 * @returns {string} 编码后的 BC 协议 URL
+		 * @param {String} link - 下载链接
+		 * @param {String} filename - 文件名
+		 * @param {String} [headers] - 自定义请求头参数（可选）
+		 * @returns {String} 编码后的 BC 协议 URL
 		 */
 		convertLinkToBitComet(link, filename, headers) {
 			filename = base.fixFilename(filename);
@@ -783,12 +796,13 @@
 		 * @author hmjz100
 		 * @author Night-stars-1
 		 * @description IDM 下载必备
-		 * @param {string} link - 下载链接
-		 * @param {string} filename - 文件名
+		 * @param {String} link - 下载链接
+		 * @param {String} filename - 文件名
 		 * @param {Array} [headers] - 自定义请求头参数（可选）
 		 * @returns {Promise<"success"|"fail">} 发送态结果
 		 */
 		async sendLinkToIDM(link, filename, filesize, headers = {}) {
+			let rpc = base.getValue("setting_idm_rpc").find(i => i.default);
 			if (!this.sendLinkToIDM.lock) this.sendLinkToIDM.lock = Promise.resolve();
 			return this.sendLinkToIDM.lock = this.sendLinkToIDM.lock.then(async () => {
 				headers = this.standHeaders(headers);
@@ -796,7 +810,7 @@
 				if (!this.sendLinkToIDM.seq) this.sendLinkToIDM.seq = 1;
 				let seq = this.sendLinkToIDM.seq;
 				let time = Date.now();
-				let url = `http://127.0.0.1:1001/client/1?seq=${seq}`;
+				let url = `http://127.0.0.1:1001/client/${rpc.id}?seq=${seq}`;
 				let ext = base.getExtension(filename);
 
 				let headersText = Object.entries(headers).map(([key, value]) => `${key}: ${value}`).join("\n") + "\n"; // 坑1：IDM 对 Header 的解码比较死板，最后不加换行不肯解析
@@ -811,14 +825,14 @@
 				let fields = [
 					format(4, ext), // 4: 文件类型
 					format(6, link), // 6: 链接
-					format(7, location.origin), // 7: 来源页面
+					format(7, location.origin), // 7: 来源页面（“该文件来自网页”）
 					format(11, headersText), // 11: 请求头
 					format(100, filename), // 100: 文件名
 					format(122, 4), // 122: 代理
 				];
 
 				// 坑3：神秘的请求格式
-				// MSG # {请求指示} #13#1# {10241/20xx}(是否使用扩展提供的文件信息) : {?}(可能是距离扩展启动的时间?) :0: {当前时间戳} :1: {1/2}(是否优先弹窗，再获取文件信息) : {文件大小} :0,{表单}(格式如上);
+				// MSG# {请求指示} #13#1# {10241/20xx}(是/否 使用扩展提供的文件信息) : {?}(可能是距离扩展启动的时间?) :0: {当前时间戳} :0:1: {2/1}(是/否 优先弹窗，再获取文件信息) : {文件大小} :0,{表单}(格式如上);
 				let data = `MSG#${seq}#13#1#10241:${seq + 1000}:0:${time}:0:1:2:${filesize}:0,${fields.join(",")};`;
 
 				let request = base.post(url, data, {}, "text").catch(() => false);
@@ -844,129 +858,141 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description Aria2 下载必备
-		 * @param {string} link - 下载链接
-		 * @param {string} filename - 文件名
+		 * @param {String} link - 下载链接
+		 * @param {String} filename - 文件名
 		 * @param {Array} [headers] - 自定义请求头参数（可选）
 		 * @returns {Promise<"success"|"fail">} 发送态结果
 		 */
 		async sendLinkToAria2(link, filename, headers) {
-			let list = base.getValue("setting_aria2_rpc");
-			let selected = list.find(i => i.default);
-			let rpc = {
-				domain: selected.domain,
-				port: selected.port,
-				path: selected.path,
-				dir: selected.dir,
-				token: selected.token
-			};
-			let url = `${rpc.domain}:${rpc.port}${rpc.path}`;
-			let dir = (rpc.dir !== null && rpc.dir !== "") ? rpc.dir : undefined;
-			let data = {
-				id: new Date().getTime(),
-				jsonrpc: "2.0",
-				method: "aria2.addUri",
-				params: [`token:${rpc.token}`, [link], {
-					dir,
-					out: filename,
-					header: headers
-				}]
-			};
-			try {
-				let res = await base.post(url, data, {}, "");
-				if (res.result) return "success";
-				return "fail";
-			} catch (e) {
-				return "fail";
-			}
+			if (!this.sendLinkToAria2.lock) this.sendLinkToAria2.lock = Promise.resolve();
+			return this.sendLinkToAria2.lock = this.sendLinkToAria2.lock.then(async () => {
+				let list = base.getValue("setting_aria2_rpc");
+				let selected = list.find(i => i.default);
+				let rpc = {
+					domain: selected.domain,
+					port: selected.port,
+					path: selected.path,
+					dir: selected.dir,
+					token: selected.token
+				};
+				let url = `${rpc.domain}:${rpc.port}${rpc.path}`;
+				let dir = (rpc.dir !== null && rpc.dir !== "") ? rpc.dir : undefined;
+				let data = {
+					id: new Date().getTime(),
+					jsonrpc: "2.0",
+					method: "aria2.addUri",
+					params: [`token:${rpc.token}`, [link], {
+						dir,
+						out: filename,
+						header: headers
+					}]
+				};
+				try {
+					let res = await base.post(url, data, {}, "");
+					if (res.result) return "success";
+					return "fail";
+				} catch (e) {
+					return "fail";
+				}
+			});
 		},
 
 		/**
 		 * 发送链接到比特彗星下载器
 		 * @author hmjz100
 		 * @description 比特彗星下载必备
-		 * @param {string} link - 下载链接
-		 * @param {string} filename - 文件名
+		 * @param {String} link - 下载链接
+		 * @param {String} filename - 文件名
 		 * @param {Array} [headers] - 自定义请求头参数（可选）
 		 * @returns {Promise<"success"|"fail">} 发送态结果
 		 */
 		async sendLinkToBitcomet(link, filename, headers) {
-			let list = base.getValue("setting_bitcomet_rpc");
-			let selected = list.find(i => i.default);
-			let rpc = {
-				domain: selected.domain,
-				port: selected.port,
-				path: selected.path,
-				dir: selected.dir,
-				authName: selected.authName,
-				authPass: selected.authPass,
-			};
-			let url = `${rpc.domain}:${rpc.port}${rpc.path}`;
-			let data = new URLSearchParams();
-			data.append("url", link);
-			if (rpc.dir !== null && rpc.dir !== "") data.append("save_path", rpc.dir);
-			data.append("file_name", filename);
-			data.append("connection", 200);
-			if (headers && base.isType(headers) === "object") {
-				for (var [key, value] of Object.entries(headers)) {
-					data.append(key, value);
+			if (!this.sendLinkToBitcomet.lock) this.sendLinkToBitcomet.lock = Promise.resolve();
+			return this.sendLinkToBitcomet.lock = this.sendLinkToBitcomet.lock.then(async () => {
+				let list = base.getValue("setting_bitcomet_rpc");
+				let selected = list.find(i => i.default);
+				let rpc = {
+					domain: selected.domain,
+					port: selected.port,
+					path: selected.path,
+					dir: selected.dir,
+					authName: selected.authName,
+					authPass: selected.authPass,
+				};
+				let url = `${rpc.domain}:${rpc.port}${rpc.path}`;
+				let data = new URLSearchParams();
+				data.append("url", link);
+				if (rpc.dir !== null && rpc.dir !== "") data.append("save_path", rpc.dir);
+				data.append("file_name", filename);
+				data.append("connection", 200);
+				if (headers && base.isType(headers) === "object") {
+					for (var [key, value] of Object.entries(headers)) {
+						data.append(key, value);
+					}
 				}
-			}
-			try {
-				let res = await base.post(url, data, {
-					"Authorization": `Basic ${base.encodeBase(rpc.authName + ":" + rpc.authPass)}`,
-					"Content-Type": "application/x-www-form-urlencoded"
-				}, "blob");
-				if (res.response && res?.responseText?.includes("Add task failed!")) {
-					return "fail";
-				} else {
+				try {
+					let res = await base.post(url, data, {
+						"Authorization": `Basic ${base.encodeBase(rpc.authName + ":" + rpc.authPass)}`,
+						"Content-Type": "application/x-www-form-urlencoded",
+						"Cache-Control": "max-age=0",
+						"Origin": `${rpc.domain}:${rpc.port}`,
+						"Referer": `${rpc.domain}:${rpc.port}/panel/task_add_httpftp`,
+					}, "text");
+					if (res && res.includes("Add task failed!")) {
+						return "fail";
+					} else {
+						return "success";
+					}
+				} catch (e) {
 					return "success";
 				}
-			} catch (e) {
-				return "success";
-			}
+			});
 		},
 
 		/**
 		 * 发送链接到 AB Download Manager 下载器
 		 * @author hmjz100
 		 * @description AB Download Manager 下载必备
-		 * @param {string} link - 下载链接
-		 * @param {string} filename - 文件名
+		 * @param {String} link - 下载链接
+		 * @param {String} filename - 文件名
 		 * @param {Array} [headers] - 自定义请求头参数（可选）
 		 * @returns {Promise<"success"|"fail">} 发送态结果
 		 */
 		async sendLinkToABDM(link, filename, headers) {
-			let newHeaders = {};
-			for (let key in headers) {
-				newHeaders[key.toLowerCase().split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join("-")] = headers[key];
-			}
-			headers = { "User-Agent": navigator.userAgent, "Origin": location.origin, "Referer": `${location.origin}/`, "DNT": "1", ...newHeaders };
-			let list = base.getValue("setting_abdm_rpc");
-			let selected = list.find(i => i.default);
-			let rpc = {
-				domain: selected.domain,
-				port: selected.port,
-				dir: selected.dir
-			};
-			let url = `${rpc.domain}:${rpc.port}/start-headless-download`;
-			let data = {
-				"downloadSource": {
-					"name": filename,
-					"description": "LinkSwift",
-					"link": link,
-					"headers": headers,
-					"downloadPage": headers["Referer"]
-				},
-				"name": filename
-			}
-			if (rpc.dir) data.folder = rpc.dir;
-			try {
-				let res = await base.post(url, data, { "Content-Type": "text/plain;charset=UTF-8" }, "text");
-				if (res === "OK") return "success";
-				return "fail";
-			} catch (e) {
-				return "fail";
-			}
+			if (!this.sendLinkToBitcomet.lock) this.sendLinkToBitcomet.lock = Promise.resolve();
+			return this.sendLinkToBitcomet.lock = this.sendLinkToBitcomet.lock.then(async () => {
+				let newHeaders = {};
+				for (let key in headers) {
+					newHeaders[key.toLowerCase().split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join("-")] = headers[key];
+				}
+				headers = { "User-Agent": navigator.userAgent, "Origin": location.origin, "Referer": `${location.origin}/`, "DNT": "1", ...newHeaders };
+				let list = base.getValue("setting_abdm_rpc");
+				let selected = list.find(i => i.default);
+				let rpc = {
+					domain: selected.domain,
+					port: selected.port,
+					dir: selected.dir
+				};
+				let url = `${rpc.domain}:${rpc.port}/start-headless-download`;
+				let data = {
+					"downloadSource": {
+						"name": filename,
+						"description": "LinkSwift",
+						"link": link,
+						"headers": headers,
+						"downloadPage": headers["Referer"]
+					},
+					"name": filename
+				}
+				if (rpc.dir) data.folder = rpc.dir;
+				try {
+					let res = await base.post(url, data, { "Content-Type": "text/plain;charset=UTF-8" }, "text");
+					if (res === "OK") return "success";
+					return "fail";
+				} catch (e) {
+					return "fail";
+				}
+			});
 		},
 
 		/**
@@ -1017,7 +1043,7 @@
 		 * @author 油小猴
 		 * @description 通过创建临时链接实现文件下载
 		 * @param {Blob} blob - 要下载的 Blob 对象
-		 * @param {string} filename - 下载时提示保存的文件名
+		 * @param {String} filename - 下载时提示保存的文件名
 		 */
 		blobDownload(blob, filename) {
 			if (blob instanceof Blob) {
@@ -1050,10 +1076,10 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description 一般用于请求 API，支持智能格式化数据、智能编码请求数据
-		 * @param {string} url - 请求地址
-		 * @param {Object|string} data - 请求数据
+		 * @param {String} url - 请求地址
+		 * @param {Object|String} data - 请求数据
 		 * @param {Object} headers - 请求头配置
-		 * @param {string} [type="json"] - 响应类型（支持 `json`, `blob` 等）
+		 * @param {String} [type="json"] - 响应类型（支持 `json`, `blob` 等）
 		 * @returns {Promise} 包含响应数据的 `Promise` 对象
 		 */
 		async post(url, data, headers, type = "json") {
@@ -1064,7 +1090,7 @@
 				_data = Object.fromEntries(data);
 			}
 			headers = this.standHeaders(headers);
-			headers = { "Accept": "application/json;charset=utf-8", ...headers };
+			headers = { "Accept": "*/*,application/json;charset=utf-8", ...headers };
 			let request
 			let promise = new Promise((resolve, reject) => {
 				request = base.xmlHttpRequest({
@@ -1074,6 +1100,8 @@
 						base.console.log("【LinkSwift】Post(start)\n请求地址：" + url + "\n请求数据：", _data, "\n请求头部：", headers);
 					},
 					onload: (res) => {
+						const rawHeaders = res.responseHeaders || (request?.getAllResponseHeaders?.() || "") || "";
+						res.responseHeaders = base.standHeaders(typeof rawHeaders === 'string' ? rawHeaders.trim() : "", true);
 						if (type === "blob") {
 							base.console.log("【LinkSwift】Post(load) Blob\n请求地址：" + url + "\n请求数据：", _data, "\n请求结果：", res);
 							resolve(res);
@@ -1100,15 +1128,9 @@
 					}
 				});
 			})
-			let proto = request.prototype;
-			while (proto && proto !== Object.prototype) {
-				for (var key of Object.getOwnPropertyNames(proto)) {
-					if (typeof request[key] === "function") {
-						promise[key] = request[key].bind(request);
-					}
-				};
-				proto = Object.getPrototypeOf(proto); // 继续向上遍历
-				if (proto === request) break; // 防止循环
+			if (request) {
+				var methods = Object.getOwnPropertyNames(request).filter(key => typeof request[key] === 'function' && !promise.hasOwnProperty(key) && !['then', 'catch', 'finally'].includes(key)); // 自动收集 request 上的函数属性进行绑定，并能智能排除 Promise 原生方法
+				methods.forEach(method => { promise[method] = (...args) => request[method](...args); }); // 动态绑定到 Promise
 			}
 			return promise;
 		},
@@ -1118,9 +1140,9 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description 一般用于请求 API，支持智能格式化数据
-		 * @param {string} url - 请求地址
+		 * @param {String} url - 请求地址
 		 * @param {Object} headers - 请求头配置
-		 * @param {string} [type="json"] - 响应类型
+		 * @param {String} [type="json"] - 响应类型
 		 * @returns {Promise} 包含响应数据的 `Promise` 对象
 		 */
 		async get(url, headers, type = "json") {
@@ -1134,6 +1156,8 @@
 						base.console.log("【LinkSwift】Get(start)\n请求地址：" + url + "\n请求头部：", headers);
 					},
 					onload: (res) => {
+						const rawHeaders = res.responseHeaders || (request?.getAllResponseHeaders?.() || "") || "";
+						res.responseHeaders = base.standHeaders(typeof rawHeaders === 'string' ? rawHeaders.trim() : "", true);
 						if (type === "blob") {
 							base.console.log("【LinkSwift】Get(load) Blob\n请求地址：" + url, "\n请求结果：", res);
 							resolve(res);
@@ -1156,26 +1180,19 @@
 					}
 				});
 			})
-			let proto = request.prototype;
-			while (proto && proto !== Object.prototype) {
-				for (var key of Object.getOwnPropertyNames(proto)) {
-					if (typeof request[key] === "function") {
-						promise[key] = request[key].bind(request);
-					}
-				};
-				proto = Object.getPrototypeOf(proto); // 继续向上遍历
-				if (proto === request) break; // 防止循环
+			if (request) {
+				var methods = Object.getOwnPropertyNames(request).filter(key => typeof request[key] === 'function' && !promise.hasOwnProperty(key) && !['then', 'catch', 'finally'].includes(key)); // 自动收集 request 上的函数属性进行绑定，并能智能排除 Promise 原生方法
+				methods.forEach(method => { promise[method] = (...args) => request[method](...args); }); // 动态绑定到 Promise
 			}
 			return promise;
 		},
-
 		/**
 		 * 发送 HEAD 请求
 		 * @author hmjz100
 		 * @description 用于获取请求地址返回的请求头，支持智能降级为轻量 GET (`Range: bytes=0-0`)，返回结构化响应头
-		 * @param {string} url - 请求地址
+		 * @param {String} url - 请求地址
 		 * @param {Object} headers - 请求头配置
-		 * @param {boolean} usingGET - 是否使用 GET
+		 * @param {Boolean} usingGET - 是否使用 GET
 		 * @returns {Promise} 包含响应数据的 `Promise` 对象
 		 */
 		async head(url, headers, usingGET) {
@@ -1192,16 +1209,9 @@
 					},
 					onload: function (res) {
 						if (!_aborted) {
-							let head = {};
-							res.responseHeaders.trim().split("\r\n").forEach(line => {
-								var parts = line.split(": ");
-								if (parts.length >= 2) {
-									var key = parts[0].toLowerCase();
-									var value = parts.slice(1).join(": ");
-									head[key] = value;
-								}
-							});
-							res.responseHeaders = base.standHeaders(head, true);
+							const rawHeaders = res.responseHeaders || (request?.getAllResponseHeaders?.() || "") || "";
+							res.responseHeaders = base.standHeaders(typeof rawHeaders === 'string' ? rawHeaders.trim() : "", true);
+
 							base.console.log(`【LinkSwift】Head${usingGET ? " Get" : ""}(load)\n请求地址：${res.finalUrl}\n响应状态：${res.status}\n响应内容：`, res);
 
 							if (!usingGET && !res.responseHeaders.hasOwnProperty("Range") && !(res?.status >= 200 && res?.status < 400)) {
@@ -1217,16 +1227,9 @@
 							_aborted = true;
 							if (request && request.abort) request.abort();
 
-							let head = {};
-							res.responseHeaders.trim().split("\r\n").forEach(line => {
-								var parts = line.split(": ");
-								if (parts.length >= 2) {
-									var key = parts[0].toLowerCase();
-									var value = parts.slice(1).join(": ");
-									head[key] = value;
-								}
-							});
-							res.responseHeaders = base.standHeaders(head, true);
+							const rawHeaders = res.responseHeaders || (request?.getAllResponseHeaders?.() || "") || "";
+							res.responseHeaders = base.standHeaders(typeof rawHeaders === 'string' ? rawHeaders.trim() : "", true);
+
 							base.console.log(`【LinkSwift】Head${usingGET ? " Get" : ""}(load) RS2\n请求地址：${res.finalUrl}\n响应状态：${res.status}\n响应内容：`, res);
 
 							if (!usingGET && !res.responseHeaders.hasOwnProperty("Range") && !(res?.status >= 200 && res?.status < 400)) {
@@ -1252,11 +1255,11 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description 使用 GET、Head，智能追踪 HTTP 30x 重定向，返回最终访问地址
-		 * @param {string} url - 初始请求地址
+		 * @param {String} url - 初始请求地址
 		 * @param {Object} headers - 请求头配置
-		 * @param {boolean} usingGET - 是否使用 GET
-		 * @param {boolean} returnURL - 是否只返回链接而不是 res
-		 * @returns {Promise<string>} 最终 URL 地址
+		 * @param {Boolean} usingGET - 是否使用 GET
+		 * @param {Boolean} returnURL - 是否只返回链接而不是 res
+		 * @returns {Promise<String>} 最终 URL 地址
 		 */
 		getFinal(url, headers = {}, usingGET = false, returnURL = true) {
 			return new Promise(async (resolve, reject) => {
@@ -1276,9 +1279,9 @@
 		 * 下载文件
 		 * @author hmjz100
 		 * @description 发送 GET 请求，一般用于文件下载，支持进度监控、自动重试、断点续传、非断回退
-		 * @param {string} url - 请求地址
+		 * @param {String} url - 请求地址
 		 * @param {Object} headers - 请求头配置
-		 * @param {number} [size=0] - 响应类型
+		 * @param {Number} [size=0] - 响应类型
 		 * @param {Object} [extra] - 附加参数（必须 `name`、`index`、`size` 属性；可选 `thread`、`retry` 属性）
 		 * @returns {Promise} 包含响应数据的 `Promise` 对象
 		 */
@@ -1494,10 +1497,10 @@
 		 * Aria2 RPC 服务测试
 		 * @author hmjz100
 		 * @description 验证 `JSON-RPC` 接口可用性
-		 * @param {string} domain - 服务域名
-		 * @param {string} port - 服务端口
-		 * @param {string} path - RPC 路径
-		 * @param {string} token - 认证令牌
+		 * @param {String} domain - 服务域名
+		 * @param {String} port - 服务端口
+		 * @param {String} path - RPC 路径
+		 * @param {String} token - 认证令牌
 		 * @returns {Promise<"success"|"fail">} 连接状态结果
 		 */
 		async testConnectToAria2(domain, port, path, token) {
@@ -1537,8 +1540,8 @@
 		 * AB Download Manager RPC 服务测试
 		 * @author hmjz100
 		 * @description 验证 `JSON-RPC` 接口可用性
-		 * @param {string} domain - 服务域名
-		 * @param {string} port - 服务端口
+		 * @param {String} domain - 服务域名
+		 * @param {String} port - 服务端口
 		 * @returns {Promise<"success"|"fail">} 连接状态结果
 		 */
 		async testConnectToABDM(domain, port) {
@@ -1623,7 +1626,7 @@
 		 * @author 油小猴
 		 * @description 递归处理嵌套数组，自动进行 URI 编码
 		 * @param {Object} obj - 待转换的键值对对象
-		 * @returns {string} URL 编码格式字符串（如`key1=value1&key2=value2`）
+		 * @returns {String} URL 编码格式字符串（如`key1=value1&key2=value2`）
 		 */
 		stringify(obj) {
 			let str = "";
@@ -1647,10 +1650,10 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description 支持 `样式标签` `外链CSS` 注入，提供精准的 DOM 定位和插入位置控制
-		 * @param {string} id - 样式元素 ID
+		 * @param {String} id - 样式元素 ID
 		 * @param {"style"|"link"} tag - 标签类型（`style` 或 `link`）
-		 * @param {string} css - CSS 内容或外链 URL
-		 * @param {string} [element=".{mount}"] - 定位基准元素选择器
+		 * @param {String} css - CSS 内容或外链 URL
+		 * @param {String} [element=".{mount}"] - 定位基准元素选择器
 		 * @param {"before"|"after"|"prepend"|"append"} [position="append"] - 插入位置
 		 */
 		addStyle(id, tag = "style", css, element = `.${mount}`, position = "append") {
@@ -1684,8 +1687,8 @@
 		 * 十六进制颜色转 RGBA
 		 * @author hmjz100
 		 * @description 支持 4 位和 8 位十六进制格式，自动解析透明度通道
-		 * @param {string} hex - 十六进制颜色值（如 `#09f` 或 `#0099ffaa` ）
-		 * @returns {string} RGBA 格式字符串（如 `15, 170, 255, 0.67`）
+		 * @param {String} hex - 十六进制颜色值（如 `#09f` 或 `#0099ffaa` ）
+		 * @returns {String} RGBA 格式字符串（如 `15, 170, 255, 0.67`）
 		 */
 		hexToRgba(hex) {
 			// 去掉 # 号
@@ -1712,8 +1715,8 @@
 		 * RGBA 颜色转十六进制
 		 * @author hmjz100
 		 * @description 支持透明度转换，自动补全缩写格式
-		 * @param {string} rgba - RGBA 格式颜色值（如 `rgba(15,170,255,0.67)`）
-		 * @returns {string} 十六进制颜色值（如 `#09aaffaa`）
+		 * @param {String} rgba - RGBA 格式颜色值（如 `rgba(15,170,255,0.67)`）
+		 * @returns {String} 十六进制颜色值（如 `#09aaffaa`）
 		 */
 		rgbaToHex(rgba) {
 			// 去掉前缀 "rgba" 或 "rgb" 并移除空格
@@ -1738,11 +1741,11 @@
 		 * 自适应样式颜色替换器
 		 * @author hmjz100
 		 * @description 支持全局样式替换和资源路径修正，处理颜色渐变过渡效果等
-		 * @param {string} cssText - 原始 CSS 内容
-		 * @param {string} baseURI - 资源基础路径
+		 * @param {String} cssText - 原始 CSS 内容
+		 * @param {String} baseURI - 资源基础路径
 		 * @param {"default"|"other"} type - 替换模式（默认模式包含过渡效果）
-		 * @param {Array<[string, string]>} colorMap - 颜色映射表（旧颜色 → 新颜色）
-		 * @returns {string} 处理后的 CSS 内容
+		 * @param {Array<[String, String]>} colorMap - 颜色映射表（旧颜色 → 新颜色）
+		 * @returns {String} 处理后的 CSS 内容
 		 */
 		adaptiveStyleOverride(cssText, baseURI, type, colorMap) {
 			if (!cssText) return "";
@@ -1822,7 +1825,7 @@
 		 * 自适应全局主题颜色修改器
 		 * @author hmjz100
 		 * @description 自动遍历并替换 `页面所有样式表` `SVG 元素` 的颜色值
-		 * @param {Array<[string, string]>} colorMap - 颜色映射表
+		 * @param {Array<[String, String]>} colorMap - 颜色映射表
 		 * @param {"default"|"other"} type - 替换模式
 		 */
 		adaptiveThemeOverride(colorMap, type) {
@@ -1909,7 +1912,7 @@
 		 * 延时执行
 		 * @author 油小猴
 		 * @description 仅可于 `async` 函数中执行，否则无法倒计时。
-		 * @param {number} time - 等待时间（毫秒）
+		 * @param {Number} time - 等待时间（毫秒）
 		 * @returns {Promise<void>} 延时完成的 `Promise`
 		 */
 		sleep(time) {
@@ -1922,9 +1925,9 @@
 		 * @description 该函数将版本号按 `.` 分割为数字数组，逐段比较大小。
 		 * 若某段 a 的数字大于 b，则 a 更新；
 		 * 若所有段均相等，则版本相等（返回 false）。
-		 * @param {string} a - 待比较的版本号
-		 * @param {string} b - 基准版本号（如 "1.0.9.7"）
-		 * @returns {boolean} - 若 a 比 b 更新，返回 true；否则返回 false
+		 * @param {String} a - 待比较的版本号
+		 * @param {String} b - 基准版本号（如 "1.0.9.7"）
+		 * @returns {Boolean} - 若 a 比 b 更新，返回 true；否则返回 false
 		 */
 		isNewerVersion(a, b) {
 			let partsA = a.split(".").map(Number);
@@ -1942,8 +1945,8 @@
 		/**
 		 * 提取版本号主版本
 		 * @author 油小猴
-		 * @param {string} version - 完整版本号（如 `1.2.3`）
-		 * @returns {string|null} 主版本号（如 `1`）或 `null`（格式错误时）
+		 * @param {String} version - 完整版本号（如 `1.2.3`）
+		 * @returns {String|null} 主版本号（如 `1`）或 `null`（格式错误时）
 		 */
 		getMajorVersion(version) {
 			let [major] = (version || "").split(".");
@@ -1955,7 +1958,7 @@
 		 * @author 油小猴
 		 * @description 支持 Fiber 架构遍历，可指定向上查找层级
 		 * @param {HTMLElement} dom - 起始 DOM 元素
-		 * @param {number} [traverseUp=0] - 向上遍历层级
+		 * @param {Number} [traverseUp=0] - 向上遍历层级
 		 * @returns {Object|null} React 组件实例或 `null`
 		 */
 		findReact(dom, traverseUp = 0) {
@@ -1984,6 +1987,25 @@
 				compFiber = GetCompFiber(compFiber);
 			}
 			return compFiber.stateNode || compFiber;
+		},
+
+		/**
+		 * 深拷贝
+		 * @author hmjz100
+		 * @description 完全复制某个东西
+		 */
+		clone(value) {
+			if (this.isType(structuredClone) === "function") return structuredClone(value);
+			if (value === null || value === undefined) return value;
+			if (typeof value !== 'object') return value;
+			if (value instanceof Date) return new Date(value);
+			if (value instanceof RegExp) return new RegExp(value);
+			if (Array.isArray(value)) return value.map(item => base.clone(item));
+			const result = {};
+			for (const key in value) {
+				if (Object.prototype.hasOwnProperty.call(value, key)) result[key] = base.clone(value[key]);
+			}
+			return result;
 		},
 
 		/**
@@ -2061,6 +2083,15 @@
 			if (base.getValue("setting_config_version") !== "1") base.initConfigMigration(1);
 			// 设置新结构的默认值（仅当未设置时）
 			let defaults = [
+				{
+					name: "setting_idm_rpc",
+					value: [
+						{
+							id: "1",
+							default: true
+						}
+					]
+				},
 				{
 					name: "setting_aria2_rpc",
 					value: [
@@ -2227,6 +2258,10 @@
 		showSetting(event) {
 			let setting = $(`<div>
 				<div style="text-align:center;">带星号的设置项目将在网页刷新后生效</div>
+				<label class="pl-setting-item listener-tip aria2" data-title="有关 IDM 服务的配置">
+					<div>IDM 服务器</div>
+					<button type="button" class="pl-button-mini swal2-confirm swal2-styled listener-open-idm-setting" data-back-to-setting="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-plug"/></svg><span>配置</span></button>
+				</label>
 				<label class="pl-setting-item listener-tip aria2" data-title="有关 Aria2 远程服务的配置">
 					<div>Aria2 服务器</div>
 					<button type="button" class="pl-button-mini swal2-confirm swal2-styled listener-open-aria2-setting" data-back-to-setting="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-plug"/></svg><span>配置</span></button>
@@ -2268,6 +2303,75 @@
 					if (event && $(event.currentTarget).data("back-to-downloads")) element.find(".aria2, .bitcomet, .abdm, .other").hide();
 				},
 				willClose: () => {
+					if (event && $(event.currentTarget).data("back-to-downloads")) base.showMainDialog(config.base.dom.button[temp.mode].title, base.generateDom(temp.links), config.base.dom.button[temp.mode].footer);
+				},
+			});
+		},
+
+		/**
+		 * 显示 IDM 服务设置界面
+		 * @author hmjz100
+		 * @description 包含 RPC 配置的交互界面
+		 */
+		showIDMSetting(event) {
+			let IDMList = base.getValue("setting_idm_rpc");
+			let IDMOptions = IDMList.map((item, index) => {
+				return `<option value="${index}"${item.default ? " selected" : ""}>${item.id ? item.id : "0"}</option>`;
+			}).join("");
+			let IDMSelected = IDMList.find(i => i.default);
+			let IDMSetting = `<div style="text-align:center;">适用于 IDM 推送下载</div>
+				<label class="pl-setting-item">
+					<div>默认配置</div>
+					<div>
+						<select class="swal2-select pl-input listener-rpc-select" data-type="idm" style="max-width:50%;min-width:auto">
+							${IDMOptions}<option value="new">+ 创建新项目</option>
+						</select>
+						<button type="button" class="pl-button-mini swal2-deny swal2-styled listener-rpc-delete" data-type="idm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-x-mark"/></svg><span>删除</span></button>
+					</div>
+				</label>
+				<label class="pl-setting-item">
+					<div>客户标识</div>
+					<input type="number" autocomplete="off" placeholder="用于标识 IDM 客户端扩展的标识" class="swal2-input pl-input listener-rpc-input" data-type="idm.id" value="">
+				</label>
+				<div style="text-align:start;margin-top:1em">
+					<div>标识请使用以下方法获取：</div>
+					<div>01. 确保已安装好 IDM 以及 IDM 浏览器扩展；</div>
+					<div>02. 右键 IDM 扩展图标，进入 “管理扩展”；</div>
+					<div>03. 在打开的浏览器的管理页面，滚动到下方；</div>
+					<div>04. 选择 “检查视图” 右侧的任意一个选项进入；</div>
+					<div>05. 在打开的 “DevTools” 窗口中，点击 “应用程序（Application）” 标签；</div>
+					<div>06. 在左侧栏中找到 “扩展存储（Extension Storage）”，展开；</div>
+					<div>07. 在展开的子项中选择 “本地（Local）”；</div>
+					<div>08. 在右侧主视图中显示的表格中找到 “client” 对应数字值；</div>
+					<div>09. 复制数字值，粘贴到上方的 “客户标识” 里；</div>
+					<div>10. 去试着获取链接，选择发送到 IDM 看看吧！</div>
+				</div>`;
+			Swal.fire({
+				...temp.swalDefault,
+				title: "IDM 服务设置",
+				html: IDMSetting,
+				icon: "info",
+				iconHtml: "⚙︎",
+				allowOutsideClick: false,
+				showCloseButton: true,
+				showConfirmButton: false,
+				footer: `<p><a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;&#47;&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
+				didOpen: (toast) => {
+					let element = $(toast);
+					if (event && Object.keys($(event.currentTarget).data()).some(key => key.startsWith("backTo"))) element.find(".swal2-close").addClass("listener-tip").attr("data-title", "返回上页").css({ "left": "0", "right": "auto" }).text("◃");
+					if (IDMSelected) {
+						element.find(".listener-rpc-input").each(function () {
+							let type = $(this).data("type").split(".")[1];
+							$(this).val(IDMSelected[type] || "");
+						});
+					} else {
+						IDMList[0].default = true;
+						base.setValue("setting_idm_rpc", IDMList);
+						IDMSelected = IDMList[0];
+					}
+				},
+				willClose: () => {
+					if (event && $(event.currentTarget).data("back-to-setting")) base.showSetting();
 					if (event && $(event.currentTarget).data("back-to-downloads")) base.showMainDialog(config.base.dom.button[temp.mode].title, base.generateDom(temp.links), config.base.dom.button[temp.mode].footer);
 				},
 			});
@@ -2621,8 +2725,8 @@
 		 * 显示调试信息面板
 		 * @description 展示脚本运行时环境、版本信息及依赖状态
 		 * @author hmjz100
-		 * @property{string} manageHandler - 外部管理器名称
-		 * @property{string} manageVersion - 外部管理器版本
+		 * @property{String} manageHandler - 外部管理器名称
+		 * @property{String} manageVersion - 外部管理器版本
 		 */
 		showDebug() {
 			let debugInfo = "";
@@ -2666,6 +2770,16 @@
 				</div>
 				<div class="block">(ﾉ◕ヮ◕)ﾉ 遇到 Bug 要记得去 <a class="pl-a" href="https://github.com/hmjz100/LinkSwift/issues" target="_blank">Github 议题</a> 向我报告哦~</div>
 				<div class="block">(o゜▽゜)o☆ 觉得好用？来一同完善本项目吧~ 欢迎提交<a class="pl-a" href="https://github.com/hmjz100/LinkSwift/pulls" target="_blank">拉取请求</a>为本项目做贡献~</div>
+				<div class="block">
+					<name>V1.1.3</name>
+					<div>
+					<div>LinkSwift 开发者在此祝您新春快乐！</div>
+					<div>爆竹声中一岁除，春风送暖入屠苏。LinkSwift 迎来功能更新：</div>
+					<div>1、新增 - IDM 客户端设置；</div>
+					<div>2、优化 - 链接缓存、浮动提示框；</div>
+					<div>3、适配 - 百度网盘分享页。</div>
+					</div>
+				</div>
 				<div class="block">
 					<name>V1.1.2.1</name>
 					<div>
@@ -2774,7 +2888,7 @@
 					<div>
 					<div>1、修复移动云盘下载错误；</div>
 					<div>2、优化代码，更好的错误识别；</div>
-					<div>3、去除了游小猴云服务。</div>
+					<div>3、去除了油小猴云服务。</div>
 					</div>
 				</div>
 				<div class="block">
@@ -3026,7 +3140,7 @@
 					<div>1、新增百度云盘API 下载支持复制链接；</div>
 					<div>2、为了照顾手机浏览器用户，增大项目之间间隙，新增隐藏IDM提示选项，可在助手设置中启用；</div>
 					<div>3、修改CSS，界面会出现更多的主题色；</div>
-					<div>4、支持在游小猴官网查看暗号；</div>
+					<div>4、支持在油小猴官网查看暗号；</div>
 					<div>5、修复部分语法错误。</div>
 					</div>
 				</div>
@@ -3170,27 +3284,44 @@
 		},
 
 		/**
-		 * 创建浮动提示框
-		 * @description 监听元素悬停事件，动态显示带文件大小的提示框
+		 * 创建浮动指示框
+		 * @description 一个究极好用的指示框，支持监听元素悬停事件动态改变位置，亦能显示文件名与大小
 		 * @author 油小猴
 		 * @author hmjz100
-		 * @fires .listener-tip - 鼠标移动事件触发提示框定位
+		 * @fires .listener-tip - 鼠标移动事件触发指示框定位
 		 * @see {@link temp.color} 使用全局主题色渲染文件大小信息
 		 */
 		createTip() {
-			// 预缓存变量与状态
 			let tooltip = document.querySelector(".pl-tooltip");
 			let ticking = false; // 用于 rAF 节流
 			let currentTarget = null;
 
-			// 核心更新逻辑：使用 translate3d 触发 GPU 加速
+			// 更新位置
 			var updatePosition = (x, y) => {
 				if (!tooltip) return;
-				// 使用 transform 性能远高于 top/left，因为它不触发布局计算
-				tooltip.style.transform = `translate3d(${x + 10}px, ${y + 20}px, 0)`;
+				let X = x + 10;
+				let Y = y + 20;
+				let clientWidth = document.documentElement.clientWidth;
+				let clientHeight = document.documentElement.clientHeight;
+				let scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft;
+				let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+				if (X + tooltip.offsetWidth > clientWidth + scrollLeft) {
+					X = clientWidth + scrollLeft - tooltip.offsetWidth;
+				}
+				if (X < scrollLeft) {
+					X = scrollLeft;
+				}
+				if (Y + tooltip.offsetHeight > clientHeight + scrollTop) {
+					Y = clientHeight + scrollTop - tooltip.offsetHeight;
+				}
+				if (Y < scrollTop) {
+					Y = scrollTop;
+				}
+				// 使用 translate3d 的性能远高于 top/left，它不触发布局计算，还拥有 GPU 加速
+				tooltip.style.transform = `translate3d(${X}px, ${Y}px, 0)`;
 			};
 
-			// 内容渲染逻辑
+			// 内容渲染
 			var renderContent = (target) => {
 				var { title, size } = target.dataset;
 				let html = "";
@@ -3214,7 +3345,7 @@
 					tooltip.className = "pl-tooltip";
 					tooltip.style.position = "absolute";
 					tooltip.style.willChange = "transform"; // 告知浏览器提前准备层合成
-					tooltip.style.pointerEvents = "none";   // 防止提示框挡住鼠标导致抖动
+					tooltip.style.pointerEvents = "none"; // 防止指示框挡住鼠标导致抖动
 					temp.mount[0].appendChild(tooltip);
 				}
 
@@ -3230,8 +3361,8 @@
 				var x = e.pageX;
 				var y = e.pageY;
 
-				// 使用 requestAnimationFrame 节流，确保每帧只更新一次
 				if (!ticking) {
+					// 使用 requestAnimationFrame 节流，确保每帧只更新一次位置
 					requestAnimationFrame(() => {
 						updatePosition(x, y);
 						ticking = false;
@@ -3258,7 +3389,7 @@
 				}
 			};
 
-			// 使用原生事件监听
+			// 事件监听
 			document.addEventListener("pointerover", handleOver);
 			document.addEventListener("pointermove", handleMove, { passive: true }); // 使用 passive: true 提升滚动性能
 			document.addEventListener("pointerout", handleOut);
@@ -3289,7 +3420,7 @@
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @param {Array} configs - 用于配置生成 HTML 的参数
-		 * @returns {string} 生成的 HTML 内容
+		 * @returns {String} 生成的 HTML 内容
 		 * @description 详见代码
 		 */
 		generateDom(configs) {
@@ -3326,13 +3457,13 @@
 							<div class="pl-item-name listener-tip"><div class="name">${filename}</div><div class="size">${base.sizeFormat(size)}</div></div>
 							<button class="pl-item-link pl-btn-primary pl-btn-default listener-api-download enhance listener-tip" data-title="通过脚本跨域请求下载文件，已支持多线程、智能多分片，显示预估剩余时间、下载速度；<br/>具体线程取决于浏览器的限制，所以非<b>必要情况（例如系统环境无法安装程序）</b>下，不建议使用此功能!"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-downward"/></svg>增强下载 (Beta)</button>
 							<button class="pl-item-link pl-btn-primary pl-btn-info listener-api-download normal listener-tip" data-link="${dlink}" data-filename="${filename}" data-title="通过浏览器访问链接下载文件，适用于支持 iframe 的浏览器<br/>点击后需等待浏览器弹出提示才可点击下个下载，否则只会下载后者"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-downward"/></svg>直接下载</button>
-							<button class="pl-btn-primary pl-btn-default listener-idm-download listener-tip" data-filename="${filename}" data-filesize="${size}" data-link="${dlink}" data-title="通过 IDM 扩展的捕获协议，将链接推送至 IDM，理论上仅适用于版本较新的 IDM。<br/>使用前请确保您的 IDM 的 “设置” > “文件类型” > “接管下载文件扩展名” 里有 “${base.getExtension(filename)}”，若无请添加。"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg><span>推送至 IDM (Beta)</span></button>
+							<button class="pl-btn-primary pl-btn-default listener-idm-download listener-tip" data-filename="${filename}" data-filesize="${size}" data-link="${dlink}" data-title="通过 IDM 扩展的捕获协议，将链接推送至 IDM，理论上仅适用于版本较新的 IDM。"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg><span>推送至 IDM (Beta)</span></button>
 							<button class="pl-item-copy pl-btn-primary pl-btn-success listener-copy listener-tip" data-copy='${filename}' data-title="点击复制文件名"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-copy"/></svg>复制名称</button>
 							<button class="pl-item-copy pl-btn-primary pl-btn-warning listener-copy copy listener-tip" data-copy='${dlink}' data-title="点击复制下载链接"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-copy"/></svg>复制链接</button>
 							<div class="pl-item-downing" style="display:none">
 								<div class="pl-progress">
-									<div class="progress footer"><span class="text">正在加载...</span></div>
-									<div class="progress header"><span class="text">正在加载...</span></div>
+									<div class="progress foot"><span class="text">正在加载...</span></div>
+									<div class="progress head"><span class="text">正在加载...</span></div>
 								</div>
 								<button class="pl-btn-primary pl-btn-danger stop"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-x-mark"/></svg>取消下载</button>
 								<button class="pl-btn-primary pl-btn-info back" style="display:none"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-x-mark"/></svg>返回</button>
@@ -3382,9 +3513,11 @@
 			});
 			allLink = (allLink ? allLink.join("\r\n") : "")
 			if (temp.mode === "api" && list.length >= 2) {
+				let rpc = base.getValue("setting_idm_rpc").find(i => i.default);
 				if (list.length >= 2) content.find(".pl-extra").append(`<button class="pl-btn-primary api listener-download-all enhance listener-tip" data-title="通过脚本跨域请求下载文件，已支持多线程、智能多分片，显示预估剩余时间、下载速度；<br/>具体线程取决于浏览器的限制，所以非<b>必要情况（例如系统环境无法安装程序）</b>下，不建议使用此功能!"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-downward"/></svg>全部增强下载 (Beta)</button>
-				<button class="pl-btn-primary pl-btn-default idm listener-send-rpc listener-tip" data-type="idm" data-title="通过 IDM 扩展的捕获协议，将链接推送至 IDM，理论上仅适用于版本较新的 IDM。<br/>使用前请确保您的 IDM 的 “设置” > “文件类型” > “接管下载文件扩展名” 里有上述文件的扩展名，若无请添加。"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg>全部推送至 IDM (Beta)</button>
-				<button class="pl-btn-primary pl-btn-warning api listener-copy listener-tip" data-copy='${allLink}' data-title="点击复制全部下载链接"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-copy"/></svg>复制全部链接</button>`);
+				<button class="pl-btn-primary pl-btn-default idm listener-send-rpc listener-tip" data-type="idm" data-title="通过 IDM 扩展的捕获协议，将链接推送至 IDM，理论上仅适用于版本较新的 IDM。<br/>使用前请确保您的 IDM 的 “设置” > “文件类型” > “接管下载文件扩展名” 里有上述文件的扩展名，若无请添加。"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg>全部推送至 IDM (Beta)</button>`);
+				content.find(".pl-extra").append(`<button class="pl-btn-primary pl-btn-warning idm listener-open-idm-setting listener-tip" data-title="${rpc.id}" data-back-to-downloads="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg>修改服务参数</button>`);
+				if (list.length >= 2) content.find(".pl-extra").append(`<button class="pl-btn-primary pl-btn-warning api listener-copy listener-tip" data-copy='${allLink}' data-title="点击复制全部下载链接"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-copy"/></svg>复制全部链接</button>`);
 			} else if (temp.mode === "curl") {
 				content.find(".pl-extra").append(`<button class="pl-btn-primary pl-btn-warning curl listener-open-setting listener-tip" data-title="${temp.terminalType[base.getValue("setting_curl_terminal")]}" data-back-to-downloads="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg>修改终端类型</button>`);
 				if (list.length >= 2) content.find(".pl-extra").append(`<button class="pl-btn-primary curl listener-copy listener-tip" data-copy='${allLink}' data-title="点击复制全部 curl 命令行"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-copy"/></svg>复制全部命令行</button>`);
@@ -3436,10 +3569,10 @@
 		 * @author 油小猴
 		 * @description 根据原始链接和镜像域名列表生成多个镜像链接，支持多线程下载。
 		 * 每个镜像地址会根据 thread 参数生成多个重复链接（通过添加 `&` 符号区分）。
-		 * @param {string} link - 原始下载链接
-		 * @param {Array<string>} mirror - 镜像域名数组
-		 * @param {number} [thread=2] - 每个镜像生成的线程数（链接重复次数），默认为 2
-		 * @returns {string} 所有镜像链接组成的字符串，每行一个链接
+		 * @param {String} link - 原始下载链接
+		 * @param {Array<String>} mirror - 镜像域名数组
+		 * @param {Number} [thread=2] - 每个镜像生成的线程数（链接重复次数），默认为 2
+		 * @returns {String} 所有镜像链接组成的字符串，每行一个链接
 		 *
 		 * @example
 		 * getMirrorList("https://example.com/file.zip", ["mirror1.com", "mirror2.com"], 2)
@@ -3474,6 +3607,9 @@
 		addPageListener() {
 			$doc.on("click", ".listener-open-setting", (e) => {
 				base.showSetting(e);
+			});
+			$doc.on("click", ".listener-open-idm-setting", (e) => {
+				base.showIDMSetting(e);
 			});
 			$doc.on("click", ".listener-open-aria2-setting", (e) => {
 				base.showAria2Setting(e);
@@ -3545,7 +3681,7 @@
 				var status = base._EventFactory(e);
 				status.down_enhance_downing.find(".pl-progress .text").text("正在加载...");
 				status.down_enhance_downing.find(".pl-progress .text").css("white-space", "");
-				status.down_enhance_downing.find(".pl-progress .header").css("background", "");
+				status.down_enhance_downing.find(".pl-progress .head").css("background", "");
 				status.down_enhance.show();
 				status.down_enhance_downing.hide();
 				status.down_enhance_downing.find(".stop").hide();
@@ -3652,9 +3788,16 @@
 				list[selectedIndex][type[1]] = value;
 				base.setValue(`setting_${type[0]}_rpc`, list)
 				let select = $(".listener-rpc-select");
-				let options = list.map((item, index) => {
-					return `<option value="${index}"${item.default ? " selected" : ""}>${item.domain ? item.domain : ""}:${item.port ? item.port : ""}${item.path ? item.path : ""}</option>`;
-				}).join("");
+				let options = "";
+				if (type[0] === "idm") {
+					options = list.map((item, index) => {
+						return `<option value="${index}"${item.default ? " selected" : ""}>${item.id ? item.id : "0"}</option>`;
+					}).join("")
+				} else {
+					options = list.map((item, index) => {
+						return `<option value="${index}"${item.default ? " selected" : ""}>${item.domain ? item.domain : ""}:${item.port ? item.port : ""}${item.path ? item.path : ""}</option>`;
+					}).join("")
+				};
 				select.html(`${options}<option value="new">+ 创建新项目</option>`);
 			});
 			$doc.on("click", ".listener-rpc-delete", async function (e) {
@@ -3720,6 +3863,34 @@
 					text.html(originalHtml);
 					element.css({ "background-color": "" });
 				}
+			});
+			$doc.on("click", ".pl-button-mode", async function (e) {
+				temp.mode = e.currentTarget.dataset.mode;
+				console.log(e, temp, base.isType(temp.main?.getLink));
+				if (!temp.mode) return;
+				if (!base.isType(temp.main?.getLink).includes("function")) return;
+				Swal.fire({
+					...temp.swalDefault,
+					showConfirmButton: false,
+					allowOutsideClick: false,
+					allowEscapeKey: false,
+					allowEnterKey: false,
+					title: "获取中",
+					html: `...`,
+					footer: "如果选的文件较多，请耐心等待获取完成哦！",
+					customClass: {
+						popup: "loading-popup",
+						header: "loading-header",
+						title: "loading-title",
+						content: "loading-content",
+						input: "loading-input",
+						footer: "loading-footer"
+					},
+					willOpen: async () => {
+						Swal.showLoading();
+						await temp.main.getLink();
+					},
+				});
 			});
 		},
 
@@ -3788,12 +3959,13 @@ div:where(.swal2-container) textarea:where(.swal2-textarea):focus-visible
 div:where(.swal2-container) input:where(.swal2-input), div:where(.swal2-container) input:where(.swal2-file), div:where(.swal2-container) textarea:where(.swal2-textarea), div:where(.swal2-container) select:where(.swal2-select), div:where(.swal2-container) div:where(.swal2-radio), div:where(.swal2-container) label:where(.swal2-checkbox)
 {margin:1em 2em}`);
 			base.addStyle(`${mount}-main-style`, "style", `
-::-webkit-scrollbar{width:8px;height:8px}
-::-webkit-scrollbar-track{border-radius:10px;background:#fff}
-::-webkit-scrollbar-thumb,::-webkit-scrollbar-thumb:hover{border-radius:10px}
-::-webkit-scrollbar-thumb{background-color:${temp.color}90!important,transition:background-color.2s;will-change:background-color}
-::-webkit-scrollbar-thumb:hover{background-color:${temp.color}D0!important}
-.swal2-popup{font-size:16px}
+body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) ::-webkit-scrollbar{width:.6em;height:.6em}
+body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) ::-webkit-scrollbar-track{border-radius:10px;background:#fff}
+body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) ::-webkit-scrollbar-thumb{border-radius:10px!important}
+body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) ::-webkit-scrollbar-thumb{background-color:${temp.color}90!important;transition:background-color.2s;will-change:background-color}
+body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) ::-webkit-scrollbar-thumb:hover{background-color:${temp.color}D0!important}
+body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) ::-webkit-scrollbar-track{background:#fff!important}
+@media (prefers-color-scheme:dark){ body.swal2-shown:not(.swal2-no-backdrop,.swal2-toast-shown) ::-webkit-scrollbar-track{background:#606266!important} }
 .pl-popup{font-size:12px;min-width:70%;max-width:95%}
 .pl-header{padding:0;align-items:flex-start;border-bottom:1px solid #eee;margin:0 0 10px;padding:0 0 5px}
 .pl-title{font-size:18px;white-space:nowrap;text-overflow:ellipsis}
@@ -3817,8 +3989,8 @@ a.pl-item-link:hover{color:#fff}
 .pl-item-downing{flex:1;display:flex;align-items:center;gap:10px}
 .pl-progress{position:relative; display:flex; flex:1; height:33px; overflow:hidden; border-radius:50px; background-color:#ebebeb}
 .pl-progress .progress{display:flex; align-items:center; justify-content:space-around; position:absolute; left:0; top:0; height:100%; width:var(--width,0); transition:width .4s linear; will-change:width}
-.pl-progress .progress.header{z-index:2; border-radius:50px; color:#fff; background-color:${temp.color}; overflow:hidden}
-.pl-progress .progress.footer{z-index:1; color:#333}
+.pl-progress .progress.head{z-index:2; border-radius:50px; color:#fff; background-color:${temp.color}; overflow:hidden}
+.pl-progress .progress.foot{z-index:1; color:#333}
 .pl-progress .progress .text{line-height:1; font-size:12px; font-weight:500; white-space:nowrap; padding:0 13px}
 .pl-ext{display:inline-block;width:44px;background:#999;color:#fff;height:16px;line-height:16px;font-size:12px;border-radius:3px}
 .pl-retry{padding:3px 10px;background:#cc3235;color:#fff;border-radius:3px;cursor:pointer}
@@ -3826,7 +3998,7 @@ a.pl-item-link:hover{color:#fff}
 .pl-extra:has(>*){margin-top:1.25em;padding:8px 6px}
 .pl-extra>.api.listener-download-all,.pl-extra>.curl.listener-copy,.pl-extra>.aria2.listener-send-rpc,.pl-extra>.bitcomet.listener-copy,.pl-extra>.abdm{flex:1}
 .pl-extra:not(:has(>.api.listener-download-all,>.curl.listener-copy,>.aria2.listener-send-rpc,>.bitcomet.listener-copy,>.abdm))>*{flex:1}
-.pl-btn-primary{color:#ffffff!important;background:${temp.color};border:0;border-radius:50px;cursor:pointer;font-size:12px;outline:none;display:flex;align-items:center;justify-content:center;gap:5px;padding:0.625em 1.1em;transition:opacity.2s,box-shadow.2s;will-change:opacity,box-shadow}
+.pl-btn-primary{color:#ffffff!important;background:${temp.color};border:0;border-radius:50px;cursor:pointer;font-size:12px;outline:none;word-break:keep-all;display:flex;align-items:center;justify-content:center;gap:5px;padding:0.625em 1.1em;transition:opacity.2s,box-shadow.2s;will-change:opacity,box-shadow}
 .pl-btn-primary:hover{opacity:0.8!important}
 .pl-btn-primary:focus{box-shadow:0 0 0 3px ${temp.color}80}
 .pl-btn-success{background:#55af28}
@@ -3922,7 +4094,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					</p>
 					<p>
 						如果您喜欢这个脚本的话<br/>
-						请支持原版作者 <a class="listener-tip pl-a" target="_blank" href="https://www.youxiaohou.com" data-title="${config.base.service.account ? `的微信公众号……<br/><img style="width:250px" src="${config.base.service.account}">` : ""}"><svg class="pl-icon"><use xlink:href="#pl-icon-si-tampermonkey"></use></svg> 油小猴</a><br/>
+						请支持原版作者 <a class="listener-tip pl-a" target="_blank" href="https://www.youxiaohou.com" data-title='${config.base.service.account ? `的微信公众号……<br/><img style="width:250px" src="${config.base.service.account}">` : ""}'><svg class="pl-icon"><use xlink:href="#pl-icon-si-tampermonkey"></use></svg> 油小猴</a><br/>
 						并给此改版点个 <a class="listener-tip pl-a" target="_blank" href="https://github.com/hmjz100/LinkSwift/" data-title="来看看此项目的 Github 页面吧~"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg> Star</a>？
 					</p>
 					<p>脚本不仅能精简网盘界面<br/>点亮后还能修改多个网盘的主题色哦！</p>
@@ -4005,9 +4177,9 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 		 * @author 油小猴
 		 * @author hmjz100
 		 * @description 使用 SweetAlert2 显示一个自定义样式的对话框，用于展示信息或操作提示。
-		 * @param {string} title - 对话框标题
-		 * @param {string} html - 对话框内容的 HTML 字符串
-		 * @param {string} footer - 对话框底部说明文字
+		 * @param {String} title - 对话框标题
+		 * @param {String} html - 对话框内容的 HTML 字符串
+		 * @param {String} footer - 对话框底部说明文字
 		 */
 		showMainDialog(title, html, footer) {
 			Swal.fire({
@@ -4040,11 +4212,11 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 		 * @author hmjz100
 		 * @description 监听 DOM 元素是否出现，若未出现则每隔一段时间重试，直到找到为止。
 		 * 支持在 iframe 内部查找元素，适用于异步加载场景。
-		 * @param {string} selectorElem - 要等待的目标元素选择器
+		 * @param {String} selectorElem - 要等待的目标元素选择器
 		 * @param {Function} actionFunction - 找到元素后执行的回调函数，接收 jQuery 元素作为参数，返回 true 可以不再继续寻找
-		 * @param {boolean} [bWaitOnce=false] - 是否只执行一次回调，默认为 false，如果不设置为 true 的话需要自行判断是否对元素进行操作
-		 * @param {string} [iframeSelector] - 若目标元素位于 iframe 中，传入 iframe 的选择器
-		 * @param {string} [controlKey] - 控制唯一性的键名，用于避免重复处理
+		 * @param {Boolean} [bWaitOnce=false] - 是否只执行一次回调，默认为 false，如果不设置为 true 的话需要自行判断是否对元素进行操作
+		 * @param {String} [iframeSelector] - 若目标元素位于 iframe 中，传入 iframe 的选择器
+		 * @param {String} [controlKey] - 控制唯一性的键名，用于避免重复处理
 		 */
 		waitForKeyElements(selectorElem, actionFunction, bWaitOnce, iframeSelector, controlKey) {
 			// 初始化管理器
@@ -4178,6 +4350,36 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 				return "";
 			}
 		},
+		async getShareData() {
+			// 前置
+			let url = new URL(location.href);
+			let locals = unsafeWindow?.locals?.dump?.();
+
+			// 参数们
+			let surl = url.pathname.split('/').pop().replace(/^1(.{22})$/, '$1');
+			let pwd = localStorage.getItem(`${surl}_pwd`) || url.searchParams.get('pwd');
+			let baidu_id = document?.cookie?.split?.('BAIDUID=')?.[1]?.split?.(';')?.[0];
+			let share_uk = locals?.share_uk?.value;
+			let share_id = locals?.shareid?.value;
+			let bds_token = locals?.bdstoken?.value;
+			let js_token = unsafeWindow?.jsToken;
+			let se_key = unsafeWindow?.currentSekey || unsafeWindow?.cache?.list?.config?.params?.sekey;
+
+			return {
+				share: {
+					id: share_id,
+					url: surl,
+					pwd: pwd,
+					uk: share_uk,
+				},
+				baidu: {
+					id: baidu_id,
+					token: bds_token
+				},
+				jsToken: js_token,
+				sekey: se_key
+			}
+		},
 		addPageListener() {
 			$doc.on("mouseenter mouseleave click", ".pl-button.g-dropdown-button", function (e) {
 				if (e.type === "mouseleave") {
@@ -4190,15 +4392,10 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			$doc.on("mouseleave", ".pl-button.g-dropdown-button .pl-dropdown-menu", function (e) {
 				$(e.currentTarget).hide();
 			});
-			$doc.on("click", ".pl-button-mode", async function (e) {
-				temp.mode = e.currentTarget.dataset.mode;
-				if (!temp.mode) return;
-				temp.main.getLink();
-			});
 			$doc.on("click", ".pl-button-save", async function (e) {
 				e.preventDefault();
-				let selectList = temp.main.getSelectedList();
-				if (selectList.length === 0) {
+				let selections = temp.main.getSelectedList();
+				if (selections.length === 0) {
 					return message.error("提示：<br/>请勾选要保存到网盘的文件哦~");
 				}
 				message.info("提示：<br/>因网盘限制，请保存到自己网盘后再去下载哦~");
@@ -4263,7 +4460,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					}
 				})
 					.then(async (res) => {
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#55af28");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#55af28");
 						base.blobDownload(res.response, file.name);
 						await base.sleep(1000);
 
@@ -4276,7 +4473,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 						status.down_enhance_downing.find(".stop").hide();
 						status.down_enhance_downing.find(".back").show();
 						status.down_enhance_downing.find(".pl-progress").css("--width", "100%");
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#cc3235");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#cc3235");
 						let estatus = `QAQ 下载出错~`;
 						if (!error?.status) estatus += ` 服务器未返回状态，若是下载一段时间后中断，可能是服务器返回文件长度不匹配，请重试；若是直接中断，请检查您的网络、脚本管理器扩展或浏览器~`;
 						if (error?.status == 403) estatus += ` 服务器说：链接已过期，关闭窗口重新获取试试吧~`;
@@ -4832,7 +5029,12 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 						<span class="text" style="width:auto;">下载助手</span>
 					</span>
 					<ul class="dropdown-list nd-common-float-menu pl-dropdown-menu" style="top:37px">
-						<li class="sub cursor-p pl-button-mode pl-button-save"><em class="icon noicon-zhuancun_bai"></em>保存后下载</li>
+						<!--li class="sub cursor-p pl-button-mode pl-button-save"><em class="icon noicon-zhuancun_bai"></em>保存后下载</li-->
+						<li class="sub cursor-p pl-button-mode" data-mode="api"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-downward"/></svg>API 下载</li>
+						<li class="sub cursor-p pl-button-mode" data-mode="curl"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-plug"/></svg>cURL 下载</li>
+						<li class="sub cursor-p pl-button-mode" data-mode="aria2"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg>Aria2 下载</li>
+						<li class="sub cursor-p pl-button-mode" data-mode="bitcomet"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg>彗星下载</li>
+						<li class="sub cursor-p pl-button-mode" data-mode="abdm"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-down"/></svg>ABDM 下载</li>
 						<li class="sub cursor-p pl-button-mode listener-open-setting"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg>助手设置</li>
 						<li class="sub cursor-p pl-button-mode listener-open-beautify"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-palette"/></svg>助手美化</li>
 						<li class="sub cursor-p pl-button-mode listener-open-updatelog"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-newspaper"/></svg>更新日志</li>
@@ -4876,31 +5078,153 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 				element.after($button);
 			})
 		},
-		async getLink() {
-			Swal.fire({
-				...temp.swalDefault,
-				showConfirmButton: false,
-				allowOutsideClick: false,
-				allowEscapeKey: false,
-				allowEnterKey: false,
-				title: "获取中",
-				html: `...`,
-				footer: "如果选的文件较多，请耐心等待获取完成哦！",
-				customClass: {
-					popup: "loading-popup",
-					header: "loading-header",
-					title: "loading-title",
-					content: "loading-content",
-					input: "loading-input",
-					footer: "loading-footer"
-				},
-				willOpen: () => {
-					Swal.showLoading();
-				},
+		async getFilesUrl(items, accessToken) {
+			if (base.isType(items) !== "array") return [];
+			let size = 50;
+			let processed = 0;
+			let now = Date.now();
+			let outdate = [];
+
+			items.forEach(item => {
+				let cacheIndex = temp.glinks.findIndex(c => c.id == item.fs_id);
+				if (cacheIndex !== -1) {
+					let cached = temp.glinks[cacheIndex];
+					if (cached.expires > now) {
+						Object.assign(item, cached.data);
+						processed++;
+						return;
+					} else {
+						temp.glinks.splice(cacheIndex, 1);
+					}
+				}
+				outdate.push(item);
 			});
+
+			for (let i = 0; i < outdate.length; i += size) {
+				let url = `${config.$baidu.api.getLink}&fsids=${encodeURIComponent(JSON.stringify(outdate.map(i => i.fs_id).slice(i, i + size)))}&access_token=${accessToken}`;
+				let res = await base.get(url, { "User-Agent": config.$baidu.api.ua.downloadLink });
+
+				if (res.list && res.list.length !== 0 && res.errno === 0) {
+					outdate.slice(i, i + size).forEach(item => {
+						let infos = res.list.find(i => i.fs_id == item.fs_id);
+						if (infos) {
+							Object.assign(item, infos);
+							temp.glinks.push({ "id": item.fs_id, "expires": (Date.now() + 4 * 60 * 60 * 1000), "data": infos });
+						};
+					})
+					processed += res.list.length;
+					$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} / ${items.length} 个链接~</div>`);
+
+				} else {
+					if (res.errno) {
+						if (res.errno === 112) return message.error("提示：<br/>页面过期了，刷新重试下吧~<br/>代码：" + res.errno);
+						if (res.errno === 9019) {
+							base.delValue("baidu_access_token");
+							return message.error("提示：<br/>访问令牌已过期，刷新网页后再获取一次吧~<br/>代码：" + res.errno);
+						}
+
+						items.slice(i, i + size).forEach(i => {
+							i.dlink = `获取下载地址失败，${(res.errno || res.errmsg) ? "服务器说：" + (res.errno && res.errmsg ? res.errno + " - " + res.errmsg : (res.errmsg || res.errno)) + "。" : "刷新后再试试吧~"}`
+						})
+					}
+					return message.error("提示：<br/>获取下载链接失败，刷新网页后再试试吧~");
+				}
+				await base.sleep(1000);
+			}
+			return items;
+		},
+		async getShareFileUrl(items, data) {
+			if (base.isType(items) !== "array") return [];
+			let processed = 0;
+			let now = Date.now();
+
+			for (const item of items) {
+				let cacheIndex = temp.glinks.findIndex(c => c.id == item.fs_id);
+				if (cacheIndex !== -1) {
+					let cached = temp.glinks[cacheIndex];
+					if (cached.expires > now) {
+						Object.assign(item, cached.data);
+						processed++;
+						$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} / ${items.length} 个链接~</div>`);
+						continue;
+					} else {
+						temp.glinks.splice(cacheIndex, 1); // 删除过期
+					}
+				}
+
+				let url = new URL(config.$baidu.api.getShareLink);
+				url.searchParams.set("sign", data?.sign);
+				url.searchParams.set("timestamp", data?.timestamp);
+				url.searchParams.set("bdstoken", data.baidu.token);
+				url.searchParams.set("logid", base.encodeBase(data.baidu.id));
+				url.searchParams.set("jsToken", data.jsToken);
+				let _data = new URLSearchParams({ "encrypt": 0, "product": "share", "uk": data.share.uk, "primaryid": data.share.id, "fid_list": JSON.stringify([item.fs_id]) });
+				if (data.sekey) _data.set("extra", JSON.stringify({ "sekey": data.sekey }));
+
+				let res = await base.post(url, _data, { "User-Agent": "netdisk;" });
+				processed++
+				$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} / ${items.length} 个链接~</div>`);
+
+				if (res.list && base.isType(res.list) === "array" && res.list.length !== 0 && res.errno === 0) {
+					Object.assign(item, res.list[0]);
+					temp.glinks.push({ "id": item.fs_id, "expires": (Date.now() + 4 * 60 * 60 * 1000), "data": res.list[0] });
+
+				} else {
+					if (res.errno === 0 && base.isType(res.list) === "string") {
+						item.dlink = `<span>获取下载地址失败，服务器说：此文件过大，需要<b>保存到网盘</b>后于网盘中下载。</span>`
+						temp.glinks.push({ "id": item.fs_id, "expires": (Date.now() + 4 * 60 * 60 * 1000), "data": item });
+						continue;
+
+					} else if (res.errno) {
+						if (res.errno === 112) return message.error("提示：<br/>页面过期了，刷新重试下吧~<br/>代码：" + res.errno);
+						if (res.errno === 9019) {
+							// base.delValue("baidu_access_token");
+							return message.error("提示：<br/>访问令牌已过期，刷新网页后再获取一次吧~<br/>代码：" + res.errno);
+						}
+						item.dlink = `获取下载地址失败，${(res.errno || res.errmsg) ? "服务器说：" + (res.errno && res.errmsg ? res.errno + " - " + res.errmsg : (res.errmsg || res.errno)) + "。" : "刷新后再试试吧~"}`
+						continue;
+					}
+					return message.error("提示：<br/>获取下载链接失败，刷新网页后再试试吧~");
+				}
+				await base.sleep(100);
+			}
+			return items;
+		},
+		async getFilesList(dirs, accessToken, processed = 0) {
+			let cnt = 0;
+			const fetch = async (targets) => {
+				let files = [];
+				for (let dir of targets) {
+					$doc.find(".loading-popup .loading-title").html(`文件获取中`);
+					let url = `${config.$baidu.api.getFiles}&dir=${encodeURIComponent(dir.path)}&access_token=${accessToken}`;
+					let res = await base.get(url, { "User-Agent": config.$baidu.api.ua.downloadLink });
+					cnt++;
+					if (res?.list?.length && (res.errno === 0 || res.errmsg === "succ")) {
+						let subFiles = res.list.filter(f => !f.isdir);
+						processed += subFiles.length;
+						$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} 个文件~</div><div>${dir.path}</div>`);
+						files = files.concat(subFiles);
+						let subDirs = res.list.filter(f => f.isdir);
+						if (subDirs.length > 0) {
+							files = files.concat(await fetch(subDirs));
+						}
+					}
+					if (cnt >= 50) {
+						$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} 个文件~</div><div>休息 3 秒...</div>`);
+						await base.sleep(3000);
+						cnt = 0;
+					}
+				}
+				return files;
+			};
+			return await fetch(dirs);
+		},
+		async getLink() {
 			// 获取选择的文件列表
 			let selectList = this.getSelectedList();
 			let accessToken = (base.getValue("baidu_access_token") || await temp.main.getToken());
+
+			// 回退授权
 			if (!accessToken) {
 				message.info("提示：<br/>稍后请在新标签页中授权助手哦~");
 				base.delValue("baidu_access_token");
@@ -4920,75 +5244,65 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 				}, 1000);
 				return;
 			}
+
 			if (selectList.length === 0) return message.error("提示：<br/>请勾选要下载的文件哦~");
+
 			if (temp.page === "home" || temp.page === "main") {
-				let cnt = 0;
-				let processed = selectList.filter(f => !f.isdir).length;
-				async function fetchFiles(dirs) {
-					let files = [];
-					for (let dir of dirs) {
-						$doc.find(".loading-popup .loading-title").html(`文件获取中`);
-						let url = `${config.$baidu.api.getFiles}&dir=${encodeURIComponent(dir.path)}&access_token=${accessToken}`;
-						let res = await base.get(url, { "User-Agent": config.$baidu.api.ua.downloadLink });
-						cnt++;
-						if (res?.list?.length && (res.errno === 0 || res.errmsg === "succ")) {
-							let subFiles = res.list.filter(f => !f.isdir);
-							processed += subFiles.length;
-							$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} 个文件~</div><div>${dir.path}</div>`);
-							files = files.concat(subFiles);
-							if (res.list.some(f => f.isdir)) {
-								files = files.concat(await fetchFiles(res.list.filter(f => f.isdir)));
-							}
-						}
-						if (cnt >= 50) {
-							$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} 个文件~</div><div>休息 3 秒...</div>`);
-							await base.sleep(3000);
-							cnt = 0;
-						}
-					}
-					return files;
-				}
 				let files = selectList.filter(f => !f.isdir);
-				if (selectList.some(f => f.isdir)) {
-					files = files.concat(await fetchFiles(selectList.filter(f => f.isdir)));
-				}
-				if (!files.length) {
-					return message.error("提示：<br/>文件夹是空的哦~");
-				}
+				let dirs = selectList.filter(f => f.isdir);
+				if (dirs.length > 0) files = files.concat(await this.getFilesList(dirs, accessToken, files.length));
+				if (!files.length) return message.error("提示：<br/>文件夹是空的哦~");
 				$doc.find(".loading-popup .loading-title").html(`链接获取中`);
 				$doc.find(".loading-popup .swal2-html-container").html(`<div>正在获取文件对应的下载链接~</div>`);
-				let fidList = files.map(f => f.fs_id);
-				let batchSize = 50;
-				let linkList = [];
-				for (let i = 0; i < fidList.length; i += batchSize) {
-					let url = `${config.$baidu.api.getLink}&fsids=${encodeURIComponent(JSON.stringify(fidList.slice(i, i + batchSize)))}&access_token=${accessToken}`;
-					let res = await base.get(url, { "User-Agent": config.$baidu.api.ua.downloadLink });
-					if (res.list && res.list.length !== 0 && res.errno === 0) {
-						linkList = linkList.concat(res.list);
-						$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${linkList.length} / ${fidList.length} 个链接~</div>`);
-					} else {
-						if (res.errno) {
-							if (res.errno === 112) {
-								return message.error("提示：<br/>页面过期了，刷新重试下吧~<br/>代码：" + res.errno);
-							}
-							if (res.errno === 9019) {
-								base.delValue("baidu_access_token");
-								return message.error("提示：<br/>访问令牌已过期，刷新网页后再获取一次吧~<br/>代码：" + res.errno);
-							}
-							base.delValue("baidu_access_token");
-							return message.error("提示：<br/>获取下载链接失败，刷新网页后再试试吧~<br/>代码：" + res.errno);
-						} else {
-							return message.error("提示：<br/>获取下载链接失败，刷新网页后再试试吧~");
-						}
-					}
-					await base.sleep(1000);
-				}
-				if (linkList.length) {
-					temp.links = [linkList, {
+
+				files = await this.getFilesUrl(files, accessToken);
+
+				if (base.isType(files) === "array" && files.length) {
+					temp.links = [files, {
 						isFolder: v => v.isdir === 1,
 						getFileName: v => (v.server_filename || v.filename),
 						getFileSize: v => v.size,
 						getFileLink: v => {
+							if (!v.dlink || !v.dlink.startsWith("http")) return v.dlink;
+							let url = new URL(v.dlink);
+							url.searchParams.set("access_token", accessToken);
+							return url.href;
+						},
+						convert: {
+							aria2: `--header "User-Agent:${config.$baidu.api.ua.downloadLink}"`,
+							curl: `-A "${config.$baidu.api.ua.downloadLink}"`,
+							bitcomet: `user_agent=${encodeURIComponent(config.$baidu.api.ua.downloadLink)}`
+						},
+						tooltip: config.$baidu.dom
+					}];
+					base.showMainDialog(config.base.dom.button[temp.mode].title, base.generateDom(temp.links), config.base.dom.button[temp.mode].footer);
+				} else {
+					return message.error("提示：<br/>获取下载链接失败，刷新网页后再试试吧~");
+				}
+			} else if (temp.page === "share") {
+				let files = selectList.filter(f => !f.isdir);
+				let data = await this.getShareData();
+
+				//if (data.share.url) {
+				//	let res = await base.post(`${config.$baidu.api.getShareVerify}&surl=${data.share.url}&t=${Date.now()}$bdstoken=${data.baidu.token}&logid=${base.encodeBase(data.baidu.id)}`, new URLSearchParams({ "pwd": data?.share?.pwd ? data.share.pwd : "" }));
+				//	data.sekey = res?.randsk;
+				//}
+
+				let sign = await base.get(`${config.$baidu.api.getShareSign}&surl=1${data.share.url}$bdstoken=${data.baidu.token}&logid=${base.encodeBase(data.baidu.id)}`);
+				if (sign?.data?.sign && sign?.data?.timestamp) {
+					data.sign = sign.data.sign;
+					data.timestamp = sign.data.timestamp;
+				}
+
+				files = await this.getShareFileUrl(files, data, accessToken);
+
+				if (base.isType(files) === "array" && files.length) {
+					temp.links = [files, {
+						isFolder: v => v.isdir === 1,
+						getFileName: v => (v.server_filename || v.filename),
+						getFileSize: v => v.size,
+						getFileLink: v => {
+							if (!v.dlink || !v.dlink.startsWith("http")) return v.dlink;
 							let url = new URL(v.dlink);
 							url.searchParams.set("access_token", accessToken);
 							return url.href;
@@ -5009,26 +5323,25 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			}
 		},
 		getSelectedList() {
-			let List, selectList
 			try {
-				List = require("system-core:context/context.js").instanceForSystem.list;
-				selectList = List.getSelected();
-				return selectList;
-			} catch (e) { }
-			try {
-				List = unsafeWindow.document.querySelector(".wp-s-core-pan");
-				if (List && List.__vue__.selectedList) {
-					selectList = List.__vue__.selectedList;
-					return selectList;
-				}
-			} catch (e) { }
-			try {
-				List = unsafeWindow.document.querySelector(".file-list");
-				if (List && List.__vue__.allFileList) {
-					selectList = List.__vue__.allFileList.filter(function (item) { return !!item.selected; });
-					return selectList;
-				}
-			} catch (e) { }
+				let list = [];
+				// 3
+				let fileList = unsafeWindow.document.querySelector(".file-list");
+				if (fileList?.__vue__?.allFileList?.[0]) list = fileList.__vue__.allFileList.filter(function (item) { return !!item.selected; });
+
+				// 2
+				let wpCore = unsafeWindow.document.querySelector(".wp-s-core-pan");
+				if (wpCore?.__vue__?.selectedList?.[0]) list = wpCore.__vue__.selectedList;
+
+				// 1
+				let context = unsafeWindow.require?.("system-core:context/context.js");
+				if (context?.instanceForSystem?.list?.getSelected?.()?.[0]) list = context.instanceForSystem.list.getSelected();
+
+				return base.clone(list);
+			} catch (e) {
+				console.error(e);
+				return [];
+			}
 		},
 		detectPage() {
 			let path = location.pathname;
@@ -5207,36 +5520,13 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					}
 					return false;
 				}
-				let selectList = temp.main.getSelectedList();
-				if (selectList.length === 0) {
+				let selections = temp.main.getSelectedList();
+				if (selections.length === 0) {
 					return message.error("提示：<br/>请勾选要保存到网盘的文件哦~");
 				}
 				message.info("提示：<br/>因网盘限制，请保存到自己网盘后再去下载哦~");
 				await base.sleep(500);
 				document.querySelector(`[class*="btn-save--"]`).click();
-			});
-			$doc.on("click", ".pl-button-mode", async function (e) {
-				temp.mode = e.currentTarget.dataset.mode;
-				if (!temp.mode) return;
-				let reactDomGrid = document.querySelector(config.$aliyun.mount.grid);
-				if (reactDomGrid) {
-					var dialog = await Swal.fire({
-						...temp.swalDefault,
-						title: "提示",
-						html: `<div style="display:flex;align-items:center;justify-content:center;">请先切换到&nbsp;&nbsp;<svg class="icon" class="icon--D3kMk " viewBox="0 0 1024 1024" width="20" height="20" fill="currentColor"><use xlink:href="#PDSDrag"></use></svg>&nbsp;<b>列表视图</b>&nbsp;&nbsp;后再获取下载链接哦</div>`,
-						icon: "info",
-						showCloseButton: true,
-						showDenyButton: true,
-						confirmButtonText: `<svg class="pl-icon"><use xlink:href="#pl-icon-fa-check"/></svg> 切换`,
-						denyButtonText: `<svg class="pl-icon"><use xlink:href="#pl-icon-fa-x-mark"/></svg> 不要`,
-					});
-					if (dialog.isConfirmed) {
-						document.querySelector(config.$aliyun.mount.switch).click();
-						return message.success("提示：<br/>切换为列表视图成功<br/>请再获取一次下载链接吧~");
-					}
-					return false;
-				}
-				temp.main.getLink();
 			});
 			$doc.on("click", ".listener-api-download.enhance", async function (e) {
 				e.preventDefault();
@@ -5296,7 +5586,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					}
 				})
 					.then(async (res) => {
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#55af28");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#55af28");
 						base.blobDownload(res.response, file.name);
 						await base.sleep(1000);
 
@@ -5309,7 +5599,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 						status.down_enhance_downing.find(".stop").hide();
 						status.down_enhance_downing.find(".back").show();
 						status.down_enhance_downing.find(".pl-progress").css("--width", "100%");
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#cc3235");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#cc3235");
 						let estatus = `QAQ 下载出错~`;
 						if (!error?.status) estatus += ` 服务器未返回状态，若是下载一段时间后中断，可能是服务器返回文件长度不匹配，请重试；若是直接中断，请检查您的网络、脚本管理器扩展或浏览器~`;
 						if (error?.status == 403) estatus += ` 服务器说：链接已过期，关闭窗口重新获取试试吧~`;
@@ -5493,27 +5783,25 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			})
 		},
 		async getLink() {
-			Swal.fire({
-				...temp.swalDefault,
-				showConfirmButton: false,
-				allowOutsideClick: false,
-				allowEscapeKey: false,
-				allowEnterKey: false,
-				title: "获取中",
-				html: `...`,
-				footer: "如果选的文件较多，请耐心等待获取完成哦！",
-				customClass: {
-					popup: "loading-popup",
-					header: "loading-header",
-					title: "loading-title",
-					content: "loading-content",
-					input: "loading-input",
-					footer: "loading-footer"
-				},
-				willOpen: () => {
-					Swal.showLoading();
-				},
-			});
+			let reactDomGrid = document.querySelector(config.$aliyun.mount.grid);
+			if (reactDomGrid) {
+				var dialog = await Swal.fire({
+					...temp.swalDefault,
+					title: "提示",
+					html: `<div style="display:flex;align-items:center;justify-content:center;">请先切换到&nbsp;&nbsp;<svg class="icon" class="icon--D3kMk " viewBox="0 0 1024 1024" width="20" height="20" fill="currentColor"><use xlink:href="#PDSDrag"></use></svg>&nbsp;<b>列表视图</b>&nbsp;&nbsp;后再获取下载链接哦</div>`,
+					icon: "info",
+					showCloseButton: true,
+					showDenyButton: true,
+					confirmButtonText: `<svg class="pl-icon"><use xlink:href="#pl-icon-fa-check"/></svg> 切换`,
+					denyButtonText: `<svg class="pl-icon"><use xlink:href="#pl-icon-fa-x-mark"/></svg> 不要`,
+				});
+				if (dialog.isConfirmed) {
+					document.querySelector(config.$aliyun.mount.switch).click();
+					return message.success("提示：<br/>切换为列表视图成功<br/>请再获取一次下载链接吧~");
+				}
+				return false;
+			}
+
 			let selectList = this.getSelectedList();
 			if (selectList.length === 0) return message.error("提示：<br/>请勾选要下载的文件哦~");
 			if (selectList.every(item => item.type !== "file")) return message.error("提示：<br/>请打开文件夹后再勾选文件~");
@@ -5532,7 +5820,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					let queue = [];
 					// 为没有 URL 的文件生成请求队列
 					noUrlSelectList.forEach((item) => {
-						queue.push(this.getFileUrlByOnce(item.driveId, item.fileId)
+						queue.push(this.getFileUrl(item.driveId, item.fileId)
 							.then(val => {
 								processed++;
 								$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} / ${selectList.length} 个链接~</div>`);
@@ -5568,8 +5856,8 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			}];
 			base.showMainDialog(config.base.dom.button[temp.mode].title, base.generateDom(temp.links), config.base.dom.button[temp.mode].footer);
 		},
-		async getFileUrlByOnce(d, f) {
-			let res = await base.post(config.$aliyun.api.getLink, { drive_id: d, file_id: f }, { "Authorization": `${base.getStorage("token").token_type} ${base.getStorage("token").access_token}`, "X-Canary": "client=windows,app=adrive,version=v6.0.0" });
+		async getFileUrl(d, f) {
+			let res = await base.post(config.$aliyun.api.getLink, { drive_id: d, file_id: f }, { "Content-Type": "application/json", "Authorization": `${base.getStorage("token").token_type} ${base.getStorage("token").access_token}`, "X-Canary": "client=windows,app=adrive,version=v6.0.0" });
 			if (res.code == "AccessTokenInvalid") {
 				return message.error("提示：<br/>访问令牌过期了，请刷新网页后再试");
 			}
@@ -5622,16 +5910,11 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 	 */
 	let $mcloud = {
 		addPageListener() {
-			$doc.on("click", ".pl-button-mode", async function (e) {
-				temp.mode = e.currentTarget.dataset.mode;
-				if (!temp.mode) return;
-				temp.main.getLink();
-			});
 			$doc.on("click", ".pl-button-save", async function (e) {
 				e.preventDefault();
-				let selectList = temp.main.getSelectedList();
-				if (selectList.length === 0) return message.error("提示：<br/>请勾选要下载的文件哦~");
-				if (selectList.every(item => !item.contentID && !item.contentName)) return message.error("提示：<br/>请打开文件夹后再勾选文件~");
+				let selections = temp.main.getSelectedList();
+				if (selections.length === 0) return message.error("提示：<br/>请勾选要下载的文件哦~");
+				if (selections.every(item => !item.contentID && !item.contentName)) return message.error("提示：<br/>请打开文件夹后再勾选文件~");
 				message.info("提示：<br/>因网盘限制，只能够通过页面直接下载哦~");
 				await base.sleep(500);
 				document.querySelector(".btn-top.btn-top_dl").click();
@@ -5694,7 +5977,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					}
 				})
 					.then(async (res) => {
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#55af28");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#55af28");
 						base.blobDownload(res.response, file.name);
 						await base.sleep(1000);
 
@@ -5707,7 +5990,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 						status.down_enhance_downing.find(".stop").hide();
 						status.down_enhance_downing.find(".back").show();
 						status.down_enhance_downing.find(".pl-progress").css("--width", "100%");
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#cc3235");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#cc3235");
 						let estatus = `QAQ 下载出错~`;
 						if (!error?.status) estatus += ` 服务器未返回状态，若是下载一段时间后中断，可能是服务器返回文件长度不匹配，请重试；若是直接中断，请检查您的网络、脚本管理器扩展或浏览器~`;
 						if (error?.status == 403) estatus += ` 服务器说：链接已过期，关闭窗口重新获取试试吧~`;
@@ -5822,7 +6105,20 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 				$(tag[0]).click(function () {
 					Swal.fire({
 						...temp.swalDefault,
-						html: `<iframe style="height:700px; width:420px; border:0;" src="https://vip.yun.139.com/vip/"></iframe>`,
+						html: `<iframe style="height:700px; width:440px; border:0;" src="https://vip.yun.139.com/vip/"></iframe>`,
+						didOpen: function (toast) {
+							const iframe = toast.querySelector('iframe');
+							const updateHeight = () => {
+								iframe.style.height = (window.innerHeight - 100) + 'px';
+							};
+							updateHeight();
+							window.addEventListener('resize', updateHeight);
+							toast._resizeHandler = updateHeight;
+						},
+						willClose: function (toast) {
+							// 清理事件监听器
+							window.removeEventListener('resize', toast._resizeHandler);
+						},
 						allowOutsideClick: false,
 						showCloseButton: true,
 						showConfirmButton: false,
@@ -5928,7 +6224,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			let l = md5(a + ":" + n);
 			return md5(A + l).toUpperCase();
 		},
-		async getFileUrlByOnce(item, index) {
+		async getFileUrl(item, index) {
 			try {
 				if (item.downloadUrl) return {
 					index,
@@ -6008,27 +6304,6 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			}
 		},
 		async getLink() {
-			Swal.fire({
-				...temp.swalDefault,
-				showConfirmButton: false,
-				allowOutsideClick: false,
-				allowEscapeKey: false,
-				allowEnterKey: false,
-				title: "获取中",
-				html: `...`,
-				footer: "如果选的文件较多，请耐心等待获取完成哦！",
-				customClass: {
-					popup: "loading-popup",
-					header: "loading-header",
-					title: "loading-title",
-					content: "loading-content",
-					input: "loading-input",
-					footer: "loading-footer"
-				},
-				willOpen: function () {
-					Swal.showLoading();
-				},
-			});
 			let selectList = this.getSelectedList();
 			if (selectList.length === 0) return message.error("提示：<br/>请勾选要下载的文件哦~");
 			if (selectList.every(item => !item.contentID && !item.contentName)) return message.error("提示：<br/>请打开文件夹后再勾选文件~");
@@ -6043,7 +6318,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					let queue = [];
 					batch.forEach((item, localIndex) => {
 						let globalIndex = i + localIndex;
-						queue.push(this.getFileUrlByOnce(item, globalIndex)
+						queue.push(this.getFileUrl(item, globalIndex)
 							.then(val => {
 								processed++;
 								$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} / ${selectList.length} 个链接~</div>`);
@@ -6110,11 +6385,6 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 	 */
 	let $tcloud = {
 		addPageListener() {
-			$doc.on("click", ".pl-button-mode", async function (e) {
-				temp.mode = e.currentTarget.dataset.mode;
-				if (!temp.mode) return;
-				temp.main.getLink();
-			});
 			$doc.on("click", ".listener-api-download.enhance", async function (e) {
 				e.preventDefault();
 				var status = base._EventFactory(e);
@@ -6173,7 +6443,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					}
 				})
 					.then(async (res) => {
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#55af28");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#55af28");
 						base.blobDownload(res.response, file.name);
 						await base.sleep(1000);
 
@@ -6186,7 +6456,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 						status.down_enhance_downing.find(".stop").hide();
 						status.down_enhance_downing.find(".back").show();
 						status.down_enhance_downing.find(".pl-progress").css("--width", "100%");
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#cc3235");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#cc3235");
 						let estatus = `QAQ 下载出错~`;
 						if (!error?.status) estatus += ` 服务器未返回状态，若是下载一段时间后中断，可能是服务器返回文件长度不匹配，请重试；若是直接中断，请检查您的网络、脚本管理器扩展或浏览器~`;
 						if (error?.status == 403) estatus += ` 服务器说：链接已过期，关闭窗口重新获取试试吧~`;
@@ -6365,7 +6635,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			$doc.find(".loading-popup .swal2-html-container").html(`<div>获取成功，令牌已缓存~</div>`);
 			return accessToken;
 		},
-		async getFileUrlByOnce(item, index, token) {
+		async getFileUrl(item, index, token) {
 			try {
 				if (item.downloadUrl) {
 					return {
@@ -6375,10 +6645,14 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 				};
 				let time = Date.now();
 				let url = `${config.$tcloud.api.getLink}?fileId=${item.fileId}`;
-				let _sign = `AccessToken=${token}&Timestamp=${time}&fileId=${item.fileId}`;
+				let _sign = `AccessToken=${token}&Timestamp=${time}`;
 				if (item.shareId) {
 					url += `&dt=1&shareId=${item.shareId}`;
-					_sign += `&dt=1&shareId=${item.shareId}`;
+					_sign += `&dt=1`;
+				}
+				_sign += `&fileId=${item.fileId}`;
+				if (item.shareId) {
+					_sign += `&shareId=${item.shareId}`;
 				}
 				let res = await base.get(url, { "Accept": "application/json;charset=UTF-8", "Sign-Type": 1, "Accesstoken": token, "Timestamp": time, "Signature": md5(_sign).toString() });
 				if (res.res_code == 0) {
@@ -6410,27 +6684,6 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			}
 		},
 		async getLink() {
-			Swal.fire({
-				...temp.swalDefault,
-				showConfirmButton: false,
-				allowOutsideClick: false,
-				allowEscapeKey: false,
-				allowEnterKey: false,
-				title: "获取中",
-				html: `...`,
-				footer: "如果选的文件较多，请耐心等待获取完成哦！",
-				customClass: {
-					popup: "loading-popup",
-					header: "loading-header",
-					title: "loading-title",
-					content: "loading-content",
-					input: "loading-input",
-					footer: "loading-footer"
-				},
-				willOpen: function () {
-					Swal.showLoading();
-				},
-			});
 			let selectList = this.getSelectedList();
 			if (selectList.length === 0) return message.error("提示：<br/>请勾选要下载的文件哦~");
 			if (selectList.every(item => item.isFolder)) return message.error("提示：<br/>请打开文件夹后再勾选文件~");
@@ -6452,7 +6705,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 				let queue = [];
 				batch.forEach((item, localIndex) => {
 					let globalIndex = i + localIndex;
-					queue.push(this.getFileUrlByOnce(item, globalIndex, token)
+					queue.push(this.getFileUrl(item, globalIndex, token)
 						.then(val => {
 							processed++;
 							$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} / ${selectList.length} 个链接~</div>`);
@@ -6506,15 +6759,10 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 	 */
 	let $xunlei = {
 		addPageListener() {
-			$doc.on("click", ".pl-button-mode", async function (e) {
-				temp.mode = e.currentTarget.dataset.mode;
-				if (!temp.mode) return;
-				temp.main.getLink();
-			});
 			$doc.on("click", ".pl-button-save", async function (e) {
 				e.preventDefault();
-				let selectList = temp.main.getSelectedList();
-				if (selectList.length === 0) {
+				let selections = temp.main.getSelectedList();
+				if (selections.length === 0) {
 					return message.error("提示：<br/>请勾选要保存到网盘的文件哦~");
 				}
 				message.info("提示：<br/>因网盘限制，请保存到自己网盘后再去下载哦~");
@@ -6579,7 +6827,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					}
 				})
 					.then(async (res) => {
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#55af28");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#55af28");
 						base.blobDownload(res.response, file.name);
 						await base.sleep(1000);
 
@@ -6592,7 +6840,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 						status.down_enhance_downing.find(".stop").hide();
 						status.down_enhance_downing.find(".back").show();
 						status.down_enhance_downing.find(".pl-progress").css("--width", "100%");
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#cc3235");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#cc3235");
 						let estatus = `QAQ 下载出错~`;
 						if (!error?.status) estatus += ` 服务器未返回状态，若是下载一段时间后中断，可能是服务器返回文件长度不匹配，请重试；若是直接中断，请检查您的网络、脚本管理器扩展或浏览器~`;
 						if (error?.status == 403) estatus += ` 服务器说：链接已过期，关闭窗口重新获取试试吧~`;
@@ -6774,7 +7022,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			};
 			return token;
 		},
-		async getFileUrlByOnce(item, index, token) {
+		async getFileUrl(item, index, token) {
 			try {
 				if (item.downloadUrl) return {
 					index,
@@ -6802,27 +7050,6 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			}
 		},
 		async getLink() {
-			Swal.fire({
-				...temp.swalDefault,
-				showConfirmButton: false,
-				allowOutsideClick: false,
-				allowEscapeKey: false,
-				allowEnterKey: false,
-				title: "获取中",
-				html: `...`,
-				footer: "如果选的文件较多，请耐心等待获取完成哦！",
-				customClass: {
-					popup: "loading-popup",
-					header: "loading-header",
-					title: "loading-title",
-					content: "loading-content",
-					input: "loading-input",
-					footer: "loading-footer"
-				},
-				willOpen: function () {
-					Swal.showLoading();
-				},
-			});
 			let selectList = this.getSelectedList();
 			if (selectList.length === 0) return message.error("提示：<br/>请勾选要下载的文件哦~");
 			if (selectList.every(item => item.kind !== "drive#file")) return message.error("提示：<br/>请打开文件夹后再勾选文件~");
@@ -6837,7 +7064,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					let queue = [];
 					batch.forEach((item, localIndex) => {
 						let globalIndex = i + localIndex;
-						queue.push(this.getFileUrlByOnce(item, globalIndex, token)
+						queue.push(this.getFileUrl(item, globalIndex, token)
 							.then(val => {
 								processed++;
 								$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} / ${selectList.length} 个链接~</div>`);
@@ -6865,15 +7092,12 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 		},
 		getSelectedList() {
 			try {
-				let doms = document.querySelectorAll(".SourceListItem__item--XxpOC");
-				let selectedList = [];
-				for (let dom of doms) {
+				let doms = document.querySelectorAll(`[class*="SourceListItem__item--"]`), list = [];
+				if (doms.length) for (let dom of doms) {
 					let domVue = dom.__vue__;
-					if (domVue.selected.includes(domVue.info.id)) {
-						selectedList.push(domVue.info);
-					}
+					if (domVue?.selected?.includes?.(domVue.info.id)) list.push(domVue.info);
 				}
-				return selectedList;
+				return base.clone(list);
 			} catch (e) {
 				return [];
 			}
@@ -6902,15 +7126,10 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 	 */
 	let $quark = {
 		addPageListener() {
-			$doc.on("click", ".pl-button-mode", async function (e) {
-				temp.mode = e.currentTarget.dataset.mode;
-				if (!temp.mode) return;
-				temp.main.getLink();
-			});
 			$doc.on("click", ".pl-button-save", async function (e) {
 				e.preventDefault();
-				let selectList = temp.main.getSelectedList();
-				if (selectList.length === 0) {
+				let selections = temp.main.getSelectedList();
+				if (selections.length === 0) {
 					return message.error("提示：<br/>请勾选要保存到网盘的文件哦~");
 				}
 				message.info("提示：<br/>因网盘限制，请保存到自己网盘后再去下载哦~");
@@ -6982,7 +7201,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					}
 				})
 					.then(async (res) => {
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#55af28");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#55af28");
 						base.blobDownload(res.response, file.name);
 						await base.sleep(1000);
 
@@ -6995,7 +7214,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 						status.down_enhance_downing.find(".stop").hide();
 						status.down_enhance_downing.find(".back").show();
 						status.down_enhance_downing.find(".pl-progress").css("--width", "100%");
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#cc3235");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#cc3235");
 						let estatus = `QAQ 下载出错~`;
 						if (!error?.status) estatus += ` 服务器未返回状态，若是下载一段时间后中断，可能是服务器返回文件长度不匹配，请重试；若是直接中断，请检查您的网络、脚本管理器扩展或浏览器~`;
 						if (error?.status == 403) estatus += ` 服务器说：链接已过期，关闭窗口重新获取试试吧~`;
@@ -7216,27 +7435,6 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			})
 		},
 		async getLink() {
-			Swal.fire({
-				...temp.swalDefault,
-				showConfirmButton: false,
-				allowOutsideClick: false,
-				allowEscapeKey: false,
-				allowEnterKey: false,
-				title: "获取中",
-				html: `...`,
-				footer: "如果选的文件较多，请耐心等待获取完成哦！",
-				customClass: {
-					popup: "loading-popup",
-					header: "loading-header",
-					title: "loading-title",
-					content: "loading-content",
-					input: "loading-input",
-					footer: "loading-footer"
-				},
-				willOpen: function () {
-					Swal.showLoading();
-				},
-			});
 			let selectList = this.getSelectedList();
 			if (selectList.length === 0) return message.error("提示：<br/>请勾选要下载的文件哦~");
 			if (selectList.every(item => !item.file)) return message.error("提示：<br/>请打开文件夹后再勾选文件~");
@@ -7250,13 +7448,13 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					let batch = selectList.slice(i, i + batchSize);
 					let fids = batch.map(item => item.fid);
 					// 发起请求获取链接
-					let res = await base.post(config.$quark.api.getLink, { "fids": fids }, { "User-Agent": config.$quark.api.ua.downloadLink });
+					let res = await base.post(config.$quark.api.getLink, { "fids": fids }, { "Content-Type": "application/json", "User-Agent": config.$quark.api.ua.downloadLink });
 					if (res?.code == 31001) {
 						return message.error("提示：<br/>请先登录网盘~<br/>代码：" + res.code);
 					} else if (res?.code == 23018) {
 						let fid = res?.message?.match(/\[([a-f0-9]{32})\]/)?.[1];
 						let item = batch.find(item => item.fid === fid);
-						return message.error(`提示：<br/>超出可获取大小限制~${item?.file_name ? `<br/>文件：${item.file_name}` : ""}`);
+						return message.error(`提示：<br/>超出游客可获取大小限制<br/>请登录后获取哦~${item?.file_name ? `<br/>文件：${item.file_name}` : ""}`);
 					}
 					if (res?.code !== 0) {
 						return message.error("提示：<br/>获取链接失败了~<br/>代码：" + res.code);
@@ -7302,13 +7500,13 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					let fids = batch.map(item => item.fid);
 					let fids_token = batch.map(item => item.share_fid_token);
 					// 发起请求获取链接
-					let res = await base.post(config.$quark.api.getLink, { "fids": fids, "fids_token": fids_token, pwd_id, "stoken": batch[0].stoken }, { "User-Agent": config.$quark.api.ua.downloadLink });
+					let res = await base.post(config.$quark.api.getLink, { "fids": fids, "fids_token": fids_token, pwd_id, "stoken": batch[0].stoken }, { "Content-Type": "application/json", "User-Agent": config.$quark.api.ua.downloadLink });
 					if (res?.code == 31001) {
 						return message.error("提示：<br/>请先登录网盘~<br/>代码：" + res.code);
 					} else if (res?.code == 23018) {
 						let fid = res?.message?.match(/\[([a-f0-9]{32})\]/)?.[1];
 						let item = batch.find(item => item.fid === fid);
-						return message.error(`提示：<br/>超出可获取大小限制~${item?.file_name ? `<br/>文件：${item.file_name}` : ""}`);
+						return message.error(`提示：<br/>超出游客可获取大小限制<br/>请登录后获取哦~${item?.file_name ? `<br/>文件：${item.file_name}` : ""}`);
 					}
 					if (res?.code !== 0) return message.error("提示：<br/>获取链接失败了~<br/>代码：" + res.code);
 					// 合并响应数据
@@ -7385,15 +7583,10 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 	 */
 	let $uc = {
 		addPageListener() {
-			$doc.on("click", ".pl-button-mode", async function (e) {
-				temp.mode = e.currentTarget.dataset.mode;
-				if (!temp.mode) return;
-				temp.main.getLink();
-			});
 			$doc.on("click", ".pl-button-save", async function (e) {
 				e.preventDefault();
-				let selectList = temp.main.getSelectedList();
-				if (selectList.length === 0) {
+				let selections = temp.main.getSelectedList();
+				if (selections.length === 0) {
 					return message.error("提示：<br/>请勾选要保存到网盘的文件哦~");
 				}
 				message.info("提示：<br/>因网盘限制，请保存到自己网盘后再去下载哦~");
@@ -7458,7 +7651,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					}
 				})
 					.then(async (res) => {
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#55af28");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#55af28");
 						base.blobDownload(res.response, file.name);
 						await base.sleep(1000);
 
@@ -7471,7 +7664,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 						status.down_enhance_downing.find(".stop").hide();
 						status.down_enhance_downing.find(".back").show();
 						status.down_enhance_downing.find(".pl-progress").css("--width", "100%");
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#cc3235");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#cc3235");
 						let estatus = `QAQ 下载出错~`;
 						if (!error?.status) estatus += ` 服务器未返回状态，若是下载一段时间后中断，可能是服务器返回文件长度不匹配，请重试；若是直接中断，请检查您的网络、脚本管理器扩展或浏览器~`;
 						if (error?.status == 403) estatus += ` 服务器说：链接已过期，关闭窗口重新获取试试吧~`;
@@ -7659,27 +7852,6 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			})
 		},
 		async getLink() {
-			Swal.fire({
-				...temp.swalDefault,
-				showConfirmButton: false,
-				allowOutsideClick: false,
-				allowEscapeKey: false,
-				allowEnterKey: false,
-				title: "获取中",
-				html: `...`,
-				footer: "如果选的文件较多，请耐心等待获取完成哦！",
-				customClass: {
-					popup: "loading-popup",
-					header: "loading-header",
-					title: "loading-title",
-					content: "loading-content",
-					input: "loading-input",
-					footer: "loading-footer"
-				},
-				willOpen: function () {
-					Swal.showLoading();
-				},
-			});
 			let selectList = this.getSelectedList();
 			if (selectList.length === 0) return message.error("提示：<br/>请勾选要下载的文件哦~");
 			if (selectList.every(item => !item.file)) return message.error("提示：<br/>请打开文件夹后再勾选文件~");
@@ -7693,13 +7865,13 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					let batch = selectList.slice(i, i + batchSize);
 					let fids = batch.map(item => item.fid);
 					// 发起请求获取链接
-					let res = await base.post(config.$uc.api.getLink, { "fids": fids }, { "User-Agent": config.$uc.api.ua.downloadLink });
+					let res = await base.post(config.$uc.api.getLink, { "fids": fids }, { "Content-Type": "application/json", "User-Agent": config.$uc.api.ua.downloadLink });
 					if (res?.code == 31001) {
 						return message.error("提示：<br/>请先登录网盘~<br/>代码：" + res.code);
 					} else if (res?.code == 23018) {
 						let fid = res?.message?.match(/\[([a-f0-9]{32})\]/)?.[1];
 						let item = batch.find(item => item.fid === fid);
-						return message.error(`提示：<br/>超出可获取大小限制~${item?.file_name ? `<br/>文件：${item.file_name}` : ""}`);
+						return message.error(`提示：<br/>超出游客可获取大小限制<br/>请登录后获取哦~${item?.file_name ? `<br/>文件：${item.file_name}` : ""}`);
 					}
 					if (res?.code !== 0) {
 						return message.error(`提示：<br/>获取链接失败了~<br/>${res.code ? res.code : ""} ${res.message ? res.message : ""}`);
@@ -7745,13 +7917,13 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					let fids = batch.map(item => item.fid);
 					let fids_token = batch.map(item => item.share_fid_token);
 					// 发起请求获取链接
-					let res = await base.post(config.$uc.api.getLink, { "fids": fids, "fids_token": fids_token, pwd_id, "stoken": batch[0].stoken }, { "User-Agent": config.$uc.api.ua.downloadLink });
+					let res = await base.post(config.$uc.api.getLink, { "fids": fids, "fids_token": fids_token, pwd_id, "stoken": batch[0].stoken }, { "Content-Type": "application/json", "User-Agent": config.$uc.api.ua.downloadLink });
 					if (res?.code == 31001) {
 						return message.error("提示：<br/>请先登录网盘~<br/>代码：" + res.code);
 					} else if (res?.code == 23018) {
 						let fid = res?.message?.match(/\[([a-f0-9]{32})\]/)?.[1];
 						let item = batch.find(item => item.fid === fid);
-						return message.error(`提示：<br/>超出可获取大小限制~${item?.file_name ? `<br/>文件：${item.file_name}` : ""}`);
+						return message.error(`提示：<br/>超出游客可获取大小限制<br/>请登录后获取哦~${item?.file_name ? `<br/>文件：${item.file_name}` : ""}`);
 					}
 					if (res?.code !== 0) return message.error("提示：<br/>获取链接失败了~<br/>代码：" + res.code);
 					// 合并响应数据
@@ -7828,11 +8000,6 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 	 */
 	let $123pan = {
 		addPageListener() {
-			$doc.on("click", ".pl-button-mode", async function (e) {
-				temp.mode = e.currentTarget.dataset.mode;
-				if (!temp.mode) return;
-				temp.main.getLink();
-			});
 			$doc.on("click", ".listener-api-download.enhance", async function (e) {
 				e.preventDefault();
 				var status = base._EventFactory(e);
@@ -7891,7 +8058,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					}
 				})
 					.then(async (res) => {
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#55af28");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#55af28");
 						base.blobDownload(res.response, file.name);
 						await base.sleep(1000);
 
@@ -7904,7 +8071,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 						status.down_enhance_downing.find(".stop").hide();
 						status.down_enhance_downing.find(".back").show();
 						status.down_enhance_downing.find(".pl-progress").css("--width", "100%");
-						status.down_enhance_downing.find(".pl-progress .header").css("background", "#cc3235");
+						status.down_enhance_downing.find(".pl-progress .head").css("background", "#cc3235");
 						let estatus = `QAQ 下载出错~`;
 						if (!error?.status) estatus += ` 服务器未返回状态，若是下载一段时间后中断，可能是服务器返回文件长度不匹配，请重试；若是直接中断，请检查您的网络、脚本管理器扩展或浏览器~`;
 						if (error?.status == 403) estatus += ` 服务器说：链接已过期，关闭窗口重新获取试试吧~`;
@@ -8161,27 +8328,6 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 			return token;
 		},
 		async getLink() {
-			Swal.fire({
-				...temp.swalDefault,
-				showConfirmButton: false,
-				allowOutsideClick: false,
-				allowEscapeKey: false,
-				allowEnterKey: false,
-				title: "获取中",
-				html: `...`,
-				footer: "如果选的文件较多，请耐心等待获取完成哦！",
-				customClass: {
-					popup: "loading-popup",
-					header: "loading-header",
-					title: "loading-title",
-					content: "loading-content",
-					input: "loading-input",
-					footer: "loading-footer"
-				},
-				willOpen: function () {
-					Swal.showLoading();
-				},
-			});
 			let selectList = this.getSelectedList();
 			if (selectList.length === 0) return message.error("提示：<br/>请勾选要下载的文件哦~");
 			if (selectList.every(item => item.Type !== 0)) return message.error("提示：<br/>请打开文件夹后再勾选文件~");
@@ -8197,7 +8343,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					$doc.find(".loading-popup .swal2-html-container").html(`<div>正在获取文件对应的下载链接~</div>`);
 					batch.forEach((item, localIndex) => {
 						let globalIndex = i + localIndex;
-						queue.push(this.getFileUrlByOnce(item, globalIndex, token)
+						queue.push(this.getFileUrl(item, globalIndex, token)
 							.then(val => {
 								processed++;
 								$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} / ${selectList.length} 个链接~</div>`);
@@ -8232,7 +8378,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					$doc.find(".loading-popup .swal2-html-container").html(`<div>正在获取文件对应的下载链接~</div>`);
 					batch.forEach((item, localIndex) => {
 						let globalIndex = i + localIndex;
-						queue.push(this.getFileUrlByOnce(item, globalIndex, token, ShareKey)
+						queue.push(this.getFileUrl(item, globalIndex, token, ShareKey)
 							.then(val => {
 								processed++;
 								$doc.find(".loading-popup .swal2-html-container").html(`<div>已获取 ${processed} / ${selectList.length} 个链接~</div>`);
@@ -8257,12 +8403,12 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 				return message.error("提示：<br/>页面错误~");
 			}
 		},
-		async getFileUrlByOnce(item, index, token, ShareKey) {
+		async getFileUrl(item, index, token, ShareKey) {
 			let res = null;
 			if (ShareKey) {
-				res = await base.post(config.$123pan.api.getShareLink, { "ShareKey": ShareKey, "FileID": item.FileId, "S3keyFlag": item.S3KeyFlag, "Size": item.Size, "Etag": item.Etag }, { "Authorization": `Bearer ${token}`, "Platform": "ios" });
+				res = await base.post(config.$123pan.api.getShareLink, { "ShareKey": ShareKey, "FileID": item.FileId, "S3keyFlag": item.S3KeyFlag, "Size": item.Size, "Etag": item.Etag }, { "Content-Type": "application/json", "Authorization": `Bearer ${token}`, "Platform": "ios" });
 			} else {
-				res = await base.post(config.$123pan.api.getLink, { "driveId": 0, "etag": item.Etag, "fileId": item.FileId, "s3keyFlag": item.S3KeyFlag, "type": item.Type, "fileName": item.FileName, "size": item.Size }, { "Authorization": `Bearer ${token}`, "Platform": "ios" });
+				res = await base.post(config.$123pan.api.getLink, { "driveId": 0, "etag": item.Etag, "fileId": item.FileId, "s3keyFlag": item.S3KeyFlag, "type": item.Type, "fileName": item.FileName, "size": item.Size }, { "Content-Type": "application/json", "Authorization": `Bearer ${token}`, "Platform": "ios" });
 			}
 			if (res.data?.DownloadUrl || res.data?.DownloadURL) {
 				let url = res.data.DownloadUrl ? res.data.DownloadUrl : res.data?.DownloadURL;
